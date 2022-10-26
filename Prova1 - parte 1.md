@@ -105,37 +105,97 @@ E. Enable guided selling (Ativar a venda guiada)
 ___
 
 ## Questão 5
+> An administrator at Universal Containers needs a simple way to trigger an alert to the director of sales when opportunities reach an amount of $500,000.
+
+> Um administrador da Universal Containers precisa de uma maneira simples de acionar um alerta para o diretor de vendas quando as oportunidades atingirem um valor de US$ 500.000.
+
+A. Enable Opportunity Update Reminders
+(Ativar lembretes de atualização de oportunidade)
+
+B. Opportunity warnings in Kanban View (Avisos de oportunidade na visualização Kanban)
+
+C. Key Deals component on the homepage (Componente de negócios principais na página inicial)
+
+D. Set up Big Deal Alerts for the amount (Configure alertas de grandes negócios para o valor)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D
 </details>
 
 ___
 
 ## Questão 6
 
+> Northern Trail Outfiters (NTO) has deployed my domain. The Chief Marketing Officer wants to make sure that all of the Salesforce users log in using the branded login URL. There needs to be a grace period for the user's bookmarks to be updated. How should the administrator configure the policies in my domain settings?
+
+> A Northern Trail Outfiters (NTO) fez deploy do meu domínio. O diretor de marketing quer garantir que todos os usuários do Salesforce façam login usando o URL de login da marca. É necessário que haja um período de carência para que os favoritos do usuário sejam atualizados. Como o administrador deve configurar as políticas nas configurações do meu domínio?
+
+A. Set the Redirect policy to Do Not redirect 
+
+(Defina a política de redirecionamento para Não redirecionar)
+
+B. Set the redirect policy to Redirect with a warning to the same page within the domain 
+
+(Defina a política de redirecionamento para Redirecionar com um aviso para a mesma página no domínio)
+
+C. Set the login policy to require login from https://nto.my.salesforce.com 
+
+(Defina a política de login para exigir login de https://nto.my.salesforce.com)
+
+D. Set the login policy to prevent login from https://login.salesforce.com 
+
+(Defina a política de login para impedir o login de https://login.salesforce.com)
+
 <details>
   <summary>Gabarito:</summary>
-  
+  C
 </details>
 
 ___
 
 ## Questão 7
 
+> An administrator at DreamHouse Realty needs to create customized pages for the Salesforce mobile app. Which two types of pages could an administrator build and customize using the Lightning App Builder? Choose 2 answers.
+
+> Um administrador da DreamHouse Realty precisa criar páginas personalizadas para o aplicativo móvel Salesforce. Quais dois tipos de páginas um administrador pode criar e personalizar usando o Lightning App Builder? Escolha 2 respostas.
+
+A. User page
+
+B. Dashboard page
+
+C. Record page
+
+D. App page
+
 <details>
   <summary>Gabarito:</summary>
-  
+  C e D.
 </details>
 
 ___
 
 ## Questão 8
 
+> The VP of sales at DreamHouse Realty has requested a dashboard to visualize enterprise sales across the different teams. The key piece of data is the total of all sales for the year and the progress to the enterprise sales goal. What dashoard component will effectively show this number and the proximity to the total goal as a single value?
+
+> O vice-presidente de vendas da DreamHouse Realty solicitou um painel para visualizar as vendas corporativas entre as diferentes equipes. A peça-chave de dados é o total de todas as vendas do ano e o progresso para a meta de vendas da empresa. Qual componente do painel mostrará efetivamente esse número e a proximidade da meta total como um valor único?
+
+A. Stacked Bar
+![image](https://chartio.com/assets/9bfb20/tutorials/charts/stacked-bar-charts/073137bf11f1c2226f68c3188128e28d66115622dcdecc9bc208a6d4117f53e8/stacked-bar-example-1.png)
+
+B. Donut
+![image](https://www.tableau.com/sites/default/files/blog/donut_chart_thumb_1.png)
+
+C. Table (~tabela)
+![image](https://www.kyubit.com/Images/Dashboards/Dashboard-Table-2.png)
+
+D. Gauge
+![image](https://doc.arcgis.com/en/dashboards/latest/get-started/GUID-4D5BDAC7-9854-4759-AE99-5AC17F66565C-web.png)
+
 <details>
   <summary>Gabarito:</summary>
-  
+  D
 </details>
 
 ___
