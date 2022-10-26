@@ -182,16 +182,20 @@ ___
 > O vice-presidente de vendas da DreamHouse Realty solicitou um painel para visualizar as vendas corporativas entre as diferentes equipes. A peça-chave de dados é o total de todas as vendas do ano e o progresso para a meta de vendas da empresa. Qual componente do painel mostrará efetivamente esse número e a proximidade da meta total como um valor único?
 
 A. Stacked Bar
-![image](https://chartio.com/assets/9bfb20/tutorials/charts/stacked-bar-charts/073137bf11f1c2226f68c3188128e28d66115622dcdecc9bc208a6d4117f53e8/stacked-bar-example-1.png)
+
+[<img src="https://chartio.com/assets/9bfb20/tutorials/charts/stacked-bar-charts/073137bf11f1c2226f68c3188128e28d66115622dcdecc9bc208a6d4117f53e8/stacked-bar-example-1.png" width="250"/>](https://chartio.com/assets/9bfb20/tutorials/charts/stacked-bar-charts/073137bf11f1c2226f68c3188128e28d66115622dcdecc9bc208a6d4117f53e8/stacked-bar-example-1.png)
 
 B. Donut
-![image](https://www.tableau.com/sites/default/files/blog/donut_chart_thumb_1.png)
 
-C. Table (~tabela)
-![image](https://www.kyubit.com/Images/Dashboards/Dashboard-Table-2.png)
+[<img src="https://www.tableau.com/sites/default/files/blog/donut_chart_thumb_1.png" width="250"/>](https://www.tableau.com/sites/default/files/blog/donut_chart_thumb_1.png)
+
+C. Table
+
+[<img src="https://www.kyubit.com/Images/Dashboards/Dashboard-Table-2.png" width="250"/>](https://www.kyubit.com/Images/Dashboards/Dashboard-Table-2.png)
 
 D. Gauge
-![image](https://doc.arcgis.com/en/dashboards/latest/get-started/GUID-4D5BDAC7-9854-4759-AE99-5AC17F66565C-web.png)
+
+[<img src="https://doc.arcgis.com/en/dashboards/latest/get-started/GUID-4D5BDAC7-9854-4759-AE99-5AC17F66565C-web.png" width="250"/>](https://doc.arcgis.com/en/dashboards/latest/get-started/GUID-4D5BDAC7-9854-4759-AE99-5AC17F66565C-web.png)
 
 <details>
   <summary>Gabarito:</summary>
@@ -202,18 +206,50 @@ ___
 
 ## Questão 9
 
+> A user at Cloud Kicks is having issues logging in to Salesforce. The user asks the administrator to reset their password. Which two options should the administrator consider when resetting the user's password? Choose 2 options.
+
+> Um usuário da Cloud Kicks está tendo problemas para fazer login no Salesforce. O usuário solicita que o administrador redefina sua senha. Quais são as duas opções que o administrador deve considerar ao redefinir a senha do usuário? Marque 2 respostas.
+
+A. Single sign-on users can reset their own passwords using the forgot password link 
+
+(Os usuários de logon único podem redefinir suas próprias senhas usando o link de senha esquecida.)
+
+B. Resetting a locked-out user's password automatically unlocks the user's account
+
+(Redefinir a senha de um usuário bloqueado desbloqueia automaticamente a conta do usuário)
+
+C. Resetting the password will change the user's password policy
+
+(A redefinição da senha alterará a política de senha do usuário)
+
+D. After resetting a password, the user may be required to activate their device to successfully log in to Salesforce
+
+(Depois de redefinir uma senha, o usuário pode ser solicitado a ativar seu dispositivo para fazer login com sucesso no Salesforce)
+
 <details>
   <summary>Gabarito:</summary>
-  
+  B e D
 </details>
 
 ___
 
 ## Questão 10
 
+> The administrator at Cloud Kicks has created an approval process for time off requests. Which two automated actions are available to be added as part of the approval process? Choose 2 answers.
+
+> O administrador da Cloud Kicks criou um processo de aprovação para solicitações de folga. Quais duas ações automatizadas estão disponíveis para serem adicionadas como parte do processo de aprovação? Escolha 2 respostas.
+
+A. Chatter Post (Postagem do Chatter)
+
+B. Field Update (Atualização de campo)
+
+C. Autolaunched Flow (Fluxo iniciado automaticamente)
+
+D. Email Alert
+
 <details>
   <summary>Gabarito:</summary>
-  
+  B e D
 </details>
 
 ___
