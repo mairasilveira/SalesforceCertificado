@@ -25,7 +25,7 @@ E. Customize Opportunity Contact Role
 
 <details>
   <summary>Gabarito:</summary>
-  D e E
+  D e E (checked)
 </details>
 
 ___
@@ -77,7 +77,7 @@ D. Global picklist (Lista de opções global)
 
 <details>
   <summary>Gabarito:</summary>
-  A e D.
+  A e D (checked)
 
   Uma custom picklist (lista de opções personalizada) está vinculada a um objeto específico como um campo no objeto. Ao contrário de um campo de lista de opções personalizado, uma global picklist (lista de opções global) existe independentemente como um conjunto de valores de lista de opções global. Seus valores são compartilhados com qualquer lista de opções baseada nele.
 </details>
@@ -125,7 +125,7 @@ D. Set up Big Deal Alerts for the amount (Configure alertas de grandes negócios
 
 <details>
   <summary>Gabarito:</summary>
-  D
+  D (checked)
 </details>
 
 ___
@@ -175,7 +175,7 @@ D. App page
 
 <details>
   <summary>Gabarito:</summary>
-  C e D.
+  C e D. (checked)
 
   There are 3 types of pages can be created using Lightning App Builder. They are,
 - App Page.
@@ -209,7 +209,7 @@ D. Gauge
 
 <details>
   <summary>Gabarito:</summary>
-  D
+  D (checked)
 </details>
 
 ___
@@ -238,7 +238,7 @@ D. After resetting a password, the user may be required to activate their device
 
 <details>
   <summary>Gabarito:</summary>
-  B e D
+  B e D (checked)
 </details>
 
 ___
@@ -259,7 +259,7 @@ D. Email Alert
 
 <details>
   <summary>Gabarito:</summary>
-  B e D
+  B e D (checked)
 
   Before creating the approval process:
 
@@ -294,13 +294,13 @@ D. Escalation Rules (Regras de escalação)
 
 <details>
   <summary>Gabarito:</summary>
-  D.
+  D (checked)
 
 
 Quando o Salesforce aplica uma regra de escalonamento a um caso, ele inspeciona o caso e compara o caso com os critérios na entrada da regra. Se o caso corresponder aos critérios definidos na entrada da regra, o Salesforce executará as ações de escalonamento.
 
-  Como os tempos de escalonamento são definidos
-Especifique quando o relógio de escalação começa a contar, especificando como os tempos de escalação são definidos [4]. Sua seleção aqui afeta quando o período de tempo especificado no campo Age Over começa a ser executado. Você pode definir o campo Age Over na página Escalation Actions.
+  Como os tempos de escalonamento são definidos:
+- Especifique quando o relógio de escalação começa a contar, especificando como os tempos de escalação são definidos [4]. Sua seleção aqui afeta quando o período de tempo especificado no campo Age Over começa a ser executado. Você pode definir o campo Age Over na página Escalation Actions.
 - Quando o caso é criado
 O relógio de escalação começa a contar quando o caso é criado e o caso escala quando o período de tempo definido no campo Age Over expira.
 Se Age Over estiver definido como 5 horas, o caso será escalado cinco horas após a criação do caso. Se o caso for criado às 9h da manhã de segunda-feira, ele será escalado às 14h da tarde de segunda-feira.
@@ -341,7 +341,7 @@ D. Configure an owner-based sharing rule
 
 <details>
   <summary>Gabarito:</summary>
-  B
+  B (checked)
 </details>
 
 ___
@@ -369,7 +369,7 @@ D. Create and assign a permission set that includes Read, Create and Edit access
 
 <details>
   <summary>Gabarito:</summary>
-  C
+  C (checked)
 </details>
 
 ___
@@ -398,7 +398,7 @@ D. Include three assignment rules that fire when cases are created. Add a filter
 
 <details>
   <summary>Gabarito:</summary>
-  B
+  B (checked)
 </details>
 
 ___
@@ -427,7 +427,7 @@ D. A user whith Read permission on the account
 
 <details>
   <summary>Gabarito:</summary>
-  A e C.
+  A e C (checked).
 </details>
 
 ___
@@ -456,7 +456,7 @@ D. Tab Settings
 
 <details>
   <summary>Gabarito:</summary>
-  D.
+  D (checked)
 </details>
 
 ___
@@ -527,7 +527,7 @@ D. Group Rows (*Agrupar linhas*)
 
 <details>
   <summary>Gabarito:</summary>
-  B.
+  B (checked)
 </details>
 
 ___
@@ -548,5 +548,5 @@ D. Autolaunched Flow (*Fluxo iniciado automaticamente*)
 
 <details>
   <summary>Gabarito:</summary>
-  A.
+  A (checked)
 </details>

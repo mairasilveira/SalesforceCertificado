@@ -14,7 +14,35 @@ D. Standard Account field (*Campo de conta padrão*)
 
 <details>
   <summary>Gabarito:</summary>
-  A.
+  A (checked)
+
+  CROSS-OBJECT FORMULA FIELD 
+
+
+  Uma fórmula de objeto cruzado é uma fórmula que abrange dois objetos relacionados e faz referência a campos de mesclagem nesses objetos. Uma fórmula de objeto cruzado pode fazer referência a campos de mesclagem de um objeto mestre ("pai") se um objeto estiver no lado de detalhes de um relacionamento entre mestre e detalhes.
+
+
+  MASTER-DETAIL RELATIONSHIP FIELD X LOOKUP FIELD
+
+
+ Lookup field relationship:
+
+Até 25 permitidos para o objeto
+Pai não é um campo obrigatório.
+Nenhum impacto em uma segurança e acesso.
+Nenhum impacto na exclusão.
+Pode ter várias camadas de profundidade.
+O campo de pesquisa não é obrigatório.
+
+ Master-detail relationship:
+
+O relacionamento Master Detail é o relacionamento Pai-filho. Em que o Mestre representa o Pai e o detalhe representa o Filho. Se o Pai for excluído, o Filho também será excluído. Os campos de resumo de rollup só podem ser criados em registros mestre que calcularão a SUM, AVG, MIN dos registros filho.
+Até 2 permitidos para objetar.
+O campo pai no filho é obrigatório.
+O acesso ao pai determina o acesso aos filhos.
+A exclusão do pai exclui automaticamente o filho.
+Um filho de um relacionamento de detalhes mestre não pode ser pai de outro.
+O campo de pesquisa no layout da página é obrigatório.
 </details>
 
 ___
@@ -93,7 +121,7 @@ D. The report needs to be refreshed
 
 <details>
   <summary>Gabarito:</summary>
-  A e C
+  A e C (checked)
 </details>
 
 ___
@@ -233,7 +261,7 @@ D. Profiles
 
 <details>
   <summary>Gabarito:</summary>
-  A e C.
+  A e C (check)
 </details>
 
 ___
@@ -396,160 +424,226 @@ D. Add a permission set that allows them to import data
 ___
 ## Questão 36
 
-A.
+> An administrator wants to create a form in Salesforce for users to fill out when they lose a client. Which automation tool supports creating a wizard to accomplish this goal?
 
-B.
+Um administrador deseja criar um formulário no Salesforce para os usuários preencherem quando perderem um cliente. Qual ferramenta de automação oferece suporte à criação de um assistente para atingir esse objetivo?
 
-C.
+A. Outbound Message (Mensagem de saída)
 
-D.
+B. Flow Builder
+
+C. Approval Process
+
+D. Process Builder
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B
 </details>
 
 ___
 ## Questão 37
 
-A.
+> An administrator at Cloud Kicks has a flow in production that is supposed to create new records. However, no new records are being created. What could the issue be?
 
-B.
+> Um administrador da Cloud Kicks tem um fluxo em produção que deve criar novos registros. No entanto, nenhum novo registro está sendo criado. Qual poderia ser o problema?
 
-C.
+A. The flow is inactive
 
-D.
+B. The flow trigger is missing
+
+C. The flow url is desactivated
+
+D. The flow is read only
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A
 </details>
 
 ___
 ## Questão 38
 
-A.
+> Northern Trail Outfitters has hired interns to enter Leads into Salesforce and has requested a way to identify these new records from existing Leads. What approach should an administrator take to meet this requirement?
 
-B.
+> A Northern Trail Outfitters contratou estagiários para inserir leads no Salesforce e solicitou uma maneira de identificar esses novos registros de leads existentes. Que abordagem um administrador deve adotar para atender a esse requisito?
 
-C.
+A. Set up Web-to-Lead for the interns use 
 
-D.
+(*Configure o Web-to-Lead para uso dos estagiários*)
+
+B. Define a record type and assign it to the interns
+
+(*Definir um tipo de registro e atribuí-lo aos estagiários*)
+
+C. Update the active Lead Assignment Rules
+
+(*Atualizar as Regras de Atribuição de Leads ativas*)
+
+D. Create a separate Lead Lightning App
+
+(*Criar um aplicativo Lead Lightning separado*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B
 </details>
 
 ___
 ## Questão 39
 
-A.
+> An administrator gets a request from Human Resources to remove a user's access to Salesforce immediately. The user is a part of a hierarchy field called Direct Manager. What should the administrator do to fulfill the request?
 
-B.
+> Um administrador recebe uma solicitação do Recursos Humanos para remover o acesso de um usuário ao Salesforce imediatamente. O usuário faz parte de um campo de hierarquia chamado Direct Manager. O que o administrador deve fazer para atender a solicitação?
 
-C.
+A. Freeze the user to prevent them from logging in while removing them from being referenced in the Direct Manager field.
 
-D.
+(*Congele o usuário para impedir que ele efetue login ao removê-lo de ser referenciado no campo Direct Manager.*)
+
+B. Deactivate the user and delete any records where they are referenced in the Direct Manager field.
+
+(*Desative o usuário e exclua todos os registros onde eles são referenciados no campo Direct Manager.*)
+
+C. Remove the user from the allowlist on the restricted user email domain on the user's email field.
+
+(*Remova o usuário da lista de permissões no domínio de e-mail do usuário restrito no campo de e-mail do usuário.*)
+
+D. Restrict the user's profile to read-only while removing them from being referenced in the Direct Manager field.
+
+(*Restrinja o perfil do usuário a somente leitura ao removê-los de serem referenciados no campo Direct Manager.*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A
 </details>
 
 ___
 ## Questão 40
 
-A.
+> An administrator has been asked to change the data type of an auto number to a text field. What should the administrator be aware of before changing the field?
 
-B.
+> Um administrador foi solicitado a alterar o tipo de dados de um número automático para um campo de texto. O que o administrador deve estar ciente antes de alterar o campo?
 
-C.
+A. Existing field values will be deleted
 
-D.
+B. Existing Auto Number field to Text is prevented 
+
+(*O campo de numeração automática existente para texto é impedido de ser trocado*)
+
+C. Existing field values will remain unchanged
+
+(*Os valores de campo existentes permanecerão inalterados*)
+
+D. Existing field values will be converted
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C
 </details>
 
 ___
 ## Questão 41
 
-A.
+> The administrator has been asked to automate a simple field update on the account. When a support agent changes the status of the account to 'Audited', they would like the system to automatically update the Audited Date field on the account with today's date. Which tool should the administrator use to complete this automation?
 
-B.
+> O administrador foi solicitado a automatizar uma atualização de campo simples na conta. Quando um agente de suporte altera o status da conta para 'Auditado', ele deseja que o sistema atualize automaticamente o campo Data da auditoria na conta com a data de hoje. Qual ferramenta o administrador deve usar para concluir essa automação?
 
-C.
+A. Formula Field
 
-D.
+B. Validation Rule
+
+C. Approval Process
+
+D. Flow Builder
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D
 </details>
 
 ___
 ## Questão 42
 
-A.
+> Ursa Major Solar offers amazing experiences for all of its employees. The employee engagement committee wants to post updates while restricting other employees from posting. What should the administrator create to meet this request?
 
-B.
+> A Ursa Major Solar oferece experiências incríveis para todos os seus colaboradores. O comitê de engajamento de funcionários deseja publicar atualizações enquanto restringe a publicação de outros funcionários. O que o administrador deve criar para atender a essa solicitação?
 
-C.
+A. Chatter Stream (Fluxo do Chatter)
 
-D.
+B. Chatter Recommendations (Chatter Recommendations)
+
+C. Chatter Broadcast Group (Grupo de transmissão do Chatter)
+
+D. Chatter Unlisted Group (Grupo não listado do Chatter)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C
 </details>
 
 ___
 ## Questão 43
+> The VP of sales at Cloud Kicks is receiving an error message that prevents them from saving an opportunity. The administrator attempted the same edit without receiving an error. How can the administrator validate the error the user is receiving?
 
-A.
+> O vice-presidente de vendas da Cloud Kicks está recebendo uma mensagem de erro que o impede de salvar uma oportunidade. O administrador tentou a mesma edição sem receber um erro. Como o administrador pode validar o erro que o usuário está recebendo?
 
-B.
+A. View the setup audit trail
 
-C.
+(*Veja a trilha de auditoria de configuração*)
 
-D.
+B. Review the sharing model
+
+(*Revise o modelo de compartilhamento*)
+
+C. Log in as the user
+
+(*Faça login como o usuário*)
+
+D. Edit the page layout
+
+(*Editar o layout da página*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C
 </details>
 
 ___
 ## Questão 44
+> Cloud Kicks wants to update a screen flow so that if the checkbox field High Value Costumer is set to true, the first screen is skipped and the user is directed to the second screen. How should the administrator configure the decision element?
 
-A.
+> O Cloud Kicks deseja atualizar um fluxo de tela para que, se o campo de caixa de seleção Cliente de alto valor estiver definido como verdadeiro, a primeira tela seja ignorada e o usuário seja direcionado para a segunda tela. Como o administrador deve configurar o elemento de decisão?
 
-B.
+A. Use the contains operator and {!$GlobalConstant.False} as the value
 
-C.
+B. Use the contains operator and "High Value Customer" as the value
 
-D.
+C.Use the contains operator and {!$GlobalConstant.True} as the value
+
+D. Use the equals operator and "High Value Customer" as the value
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C
 </details>
 
 ___
 ## Questão 45
 
-A.
+> The support manager at Cloud Kicks wants to respond to customers as quickly as possible. They have requested that the response include the top five troubleshooting tips that could help solve the customer's issue. What should the administrator suggest to meet these requirements?
 
-B.
+> O gerente de suporte da Cloud Kicks quer responder aos clientes o mais rápido possível. Eles solicitaram que a resposta incluísse as cinco principais dicas de solução de problemas que poderiam ajudar a resolver o problema do cliente. O que o administrador deve sugerir para atender a esses requisitos?
 
-C.
+A. Assignment Rules
 
-D.
+B. Knowledge Articles
+
+C. Email Alerts
+
+D. Auto-Response Rules
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D
 </details>
 
