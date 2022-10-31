@@ -131,7 +131,7 @@ ___
 
 > Um administrador da DreamHouse Realty deseja uma maneira mais fácil de atribuir casos com base na capacidade e no conjunto de habilidades do agente. Qual recurso o administrador deve habilitar para atender a esse requisito?
 
-A. Escalation Rules (*Regra de escalação*)
+A. Escalation Rules (*Regra de escalonamento. As ações de escalação especificam quando o caso escala e o que acontece quando o caso se intensifica. Uma regra de escalação pode reatribuir o caso a outro agente de suporte (usuário) ou fila de suporte (fila). Uma regra de escalonamento também pode enviar e-mails de notificação para o novo responsável, para o proprietário do caso atual e para outros destinatários.*)
 
 B. Knowledge Management (*ferramenta de suporte final. Crie e gerencie uma base de conhecimento com as informações da sua empresa e compartilhe com segurança quando e onde for necessário. A base de conhecimento do Salesforce é desenvolvida a partir de artigos do Knowledge, que são documentos informativos. Os artigos podem incluir informações sobre processos – por exemplo, como redefinir o produto para os valores padrão — ou perguntas frequentes, como a quantidade de armazenamento que seu produto suporta.*)
 
@@ -234,6 +234,9 @@ D. Lightning Data
 <details>
   <summary>Gabarito:</summary>
   C.
+
+  ### App Exchange
+  Provavelmente existe um aplicativo que atende a suas necessidades. Aquele serviço de terceiros que seus usuários têm pedido para você integrar? É bem possível que ele esteja disponível no AppExchange. E, como é a loja oficial do Salesforce, tudo aquilo que é esperado de nós, como segurança e confiança, também se estende às ofertas. 
 </details>
 
 ___
@@ -245,11 +248,11 @@ ___
 
 A. Sharing rules
 
-(*Use regras de compartilhamento para estender o acesso de compartilhamento a usuários em grupos, funções ou territórios públicos. As regras de compartilhamento dão a usuários específicos maior acesso criando exceções automáticas às configurações de compartilhamento em toda a organização.*)
+(*Use regras de compartilhamento para estender o acesso de compartilhamento a usuários em grupos, funções (é o caso dessa questão - sales users) ou territórios públicos. As regras de compartilhamento dão a usuários específicos maior acesso criando exceções automáticas às configurações de compartilhamento em toda a organização.*)
 
 B. Sharing set 
 
-(*Os conjuntos de compartilhamento usam perfis para fornecer acesso de registro a um grupo de usuários, diferentemente das regras de compartilhamento da letra A, que usam funções e grupos públicos.*)
+(*Os conjuntos de compartilhamento usam perfis para fornecer acesso de registro a um grupo de usuários, diferentemente das regras de compartilhamento da letra A, que usam funções - como sales users - e grupos públicos.*)
 
 C. Role hierarchy
 
@@ -364,7 +367,7 @@ D. App permissions and search terms
 
 <details>
   <summary>Gabarito:</summary>
-  B.
+  B (checked)
 </details>
 
 ___
@@ -438,7 +441,7 @@ D. Process Builder
 
 <details>
   <summary>Gabarito:</summary>
-  B
+  B (checked)
 </details>
 
 ___
@@ -458,7 +461,7 @@ D. The flow is read only
 
 <details>
   <summary>Gabarito:</summary>
-  A
+  A (checked)
 </details>
 
 ___
@@ -486,7 +489,7 @@ D. Create a separate Lead Lightning App
 
 <details>
   <summary>Gabarito:</summary>
-  B
+  B (checked)
 </details>
 
 ___
@@ -579,6 +582,17 @@ D. Chatter Unlisted Group (Grupo não listado do Chatter)
 <details>
   <summary>Gabarito:</summary>
   C
+
+  Chatter stream: são feeds personalizados que você cria combinando vários feeds relacionados em um feed. 
+
+  Chatter recommendations: salesforce baseia as recomendações em:
+
+A popularidade do grupo determinada pelo número de membros
+O número de pessoas que você está seguindo no grupo (o Chatter recomenda grupos com o maior número de membros que você segue.)
+Se o grupo for novo (criado no último mês)
+Para ver uma lista expandida de suas recomendações, clique em Mais na seção Recomendações. Se nenhuma recomendação for exibida, você já pertence a todos os grupos recomendados. Passe o mouse sobre as recomendações e clique no ícone Dispensar recomendação para dispensá-las. Eles não aparecem novamente.
+
+Chatter broadcast group: Ao restringir a capacidade de postar, os proprietários e gerentes do grupo podem manter as discussões do grupo focadas e relevantes, reduzindo o ruído. Você pode configurar grupos públicos, privados e não listados para serem grupos de transmissão.
 </details>
 
 ___
