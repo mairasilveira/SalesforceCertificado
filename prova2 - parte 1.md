@@ -420,34 +420,48 @@ D. Assign a new role
 
 ___
 ## Questão 19
+> Cloud Kicks has a screen flow with two questions on the same screen, but only one is necessary at a time. The administrator has been asked to show only the question that is needed. How should an administrator complete this?
 
-A.
+> Cloud Kicks tem um fluxo de tela com duas perguntas na mesma tela, mas apenas uma é necessária por vez. O administrador foi solicitado a mostrar apenas a pergunta necessária. Como um administrador deve concluir isso?
 
-B.
+A. Use conditional visibility to hide the unnecessary question
 
-C.
+(*Use a visibilidade condicional para ocultar a pergunta desnecessária*)
 
-D.
+B. Use branching in the flow screen to show the proper scenario
+
+(*Use a ramificação na tela de fluxo para mostrar o cenário adequado*)
+
+C. Use a decision element and a new screen to show the proper question
+
+(*Use um elemento de decisão e uma nova tela para mostrar a pergunta correta*)
+
+D. Use a new version of the flow for each scenario
+
+(*Use uma nova versão do fluxo para cada cenário*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A (check)
 </details>
 
 ___
 ## Questão 20
+> The administrator at AW Computing wants to send off client welcome tasks and a welcome email to the primary contact automatically when an opportunity is closed won. What automation tool best accomplishes this?
 
-A.
+> O administrador da AW Computing deseja enviar automaticamente tarefas de boas-vindas ao cliente e um e-mail de boas-vindas para o contato principal quando uma oportunidade é fechada. Qual ferramenta de automação melhor faz isso?
 
-B.
+A. Approval Process
 
-C.
+B. Process Builder
 
-D.
+C. Outbond Message
+
+D. Validation Rule
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B (checked)
 </details>
 
 ___
