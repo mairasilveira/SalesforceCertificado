@@ -103,6 +103,24 @@ D. Create three sales process. Create three record types and one page layout.
 <details>
   <summary>Gabarito:</summary>
   C
+  
+  O requisito também menciona que existem três processos de venda diferentes. Como só podemos atribuir um processo de vendas a um tipo de registro, precisaremos criar três! Além disso, eles também gostariam de capturar dados diferentes para cada processo de vendas. Isso exigirá que três layouts de página (além) sejam atribuídos a cada tipo de registro.
+
+  Exemplo A: Os usuários do suporte estão sendo integrados ao Salesforce. Eles são obrigados a visualizar uma extensa quantidade de informações sobre contas em torno da solução técnica do cliente. Esta informação não se aplica a nenhum usuário existente. Eles têm dois perfis de suporte.
+
+Com este exemplo, temos um caso de uso bastante simples. Como os usuários de suporte estão sendo trazidos para o sistema, eles precisam ver informações diferentes dos outros. Como estamos lidando apenas com uma visualização adicional para um grupo de usuários, podemos usar um layout de página adicional e aplicá-lo a ambos os perfis de suporte.
+
+Exemplo B: As vendas agora estão vendendo para contas corporativas e, como tal, têm um processo de lead diferente que precisa ser implementado. Nesta fase, as Vendas exigem apenas diferentes status de Lead. Eles têm dois perfis de vendas.
+
+Existem alguns critérios a serem observados ao avaliar se um tipo de registro deve ser usado ou não. Como o requisito acima menciona uma mudança de processo de lead, precisaremos usar automaticamente um tipo de registro. Não há menção a nenhuma alteração de campo, portanto, podemos aplicar facilmente um único tipo de registro aos dois perfis.
+
+Exemplo C: As vendas têm ainda outro requisito (*Suspiro*) – eles gostariam de implementar um processo de venda diferente em Oportunidades para cada um de seus três níveis de contas (1-100, 101-500, 501+ funcionários). Isso envolve diferentes etapas pelas quais a venda se move, além de capturar diferentes informações ao longo do caminho. Eles têm apenas um perfil de vendas.
+
+Aqui está um requisito mais empolgante. Podemos ver que diferentes processos são mencionados imediatamente, portanto, os tipos de registro terão que ser usados. O requisito também menciona que existem três processos de venda diferentes. **Como só podemos atribuir um processo de vendas a um record type, precisaremos criar três!** Além disso, eles também gostariam de capturar dados diferentes para cada processo de vendas. Isso exigirá que três layouts de página (além) sejam atribuídos a cada tipo de registro.
+
+Exemplo D: A equipe de suporte precisa mostrar informações diferentes no layout da página, dependendo do nível para o qual o caso foi escalado (Nível 1, 2 ou 3). Os agentes de suporte têm três perfis diferentes que correspondem ao nível de escalação.
+
+O requisito parece ser direto, pois eles mencionaram diretamente a necessidade de diferentes layouts de página - por causa das três camadas, sabemos que precisaremos de três layouts de página. O fato de termos três perfis diferentes convenientemente configurados significa que podemos simplesmente atribuir cada layout de página a cada perfil. No entanto, se tivéssemos apenas um perfil aqui, precisaríamos de tipos de registro para atender ao requisito (com alguma automação para alterar os tipos de registro com base no escalonamento!).
 </details>
 
 ___
@@ -423,6 +441,15 @@ D. One record type, two profiles, one picklist
 <details>
   <summary>Gabarito:</summary>
   A e B (checked)
+
+  - 2 páginas de layout com a informação da picklist de acordo com o usuário (cria-se 2 picklists portanto) e um record type
+  - 1 página de layout, 1 picklist e 2 record type (uma pra cada perfil de usuário)
+
+  Record Type: Os tipos de registro permitem que você ofereça diferentes processos de negócios, valores de picklists e layouts de página para diferentes usuários. Por exemplo, um dos casos de uso mais comuns de Tipos de registro seria criar dois processos de vendas diferentes no objeto Oportunidade – cada um com diferentes estágios de vendas e layouts de página. Isso significa que, com os Tipos de registro, agora você pode aplicar vários layouts de página por objeto, por perfil de usuário.
+
+  Page layout: Os layouts de página determinam quais campos são exibidos para seus usuários em um registro. Eles permitem que você adicione campos, seções, links e botões personalizados, além de alguns outros recursos. Muitos layouts de página podem ser criados e aplicados a diferentes grupos de usuários, com o objetivo de criar uma experiência personalizada. Você pode ter um registro de conta, por exemplo. Acme Corp, mas com informações diferentes dependendo do seu perfil de usuário. É importante observar que você só pode aplicar um layout de página a um grupo de usuários por objeto, por tipo de registro. Por exemplo, se você tiver um tipo de registro no objeto Contas, poderá aplicar apenas um layout de página por perfil. Os tipos de registro entram em jogo para estender isso.
+
+
 </details>
 
 ___
@@ -482,7 +509,7 @@ D. Workflow
   <summary>Gabarito:</summary>
   A (checked)
 
-  Flow: coleta dados e ajuda a realizar ações em uma organização ou sistema externo. Ele oferece dois tipos de fluxo: fluxo de tela e fluxo iniciado automaticamente. O fluxo de tela é usado quando uma organização deseja coletar dados de seus usuários. Por outro lado, um fluxo iniciado automaticamente é usado para iniciar um fluxo internamente para registrar alterações depois que um usuário clica em um botão. O Flow Builder é a interface declarativa para criar fluxos individuais. Ele pode ser usado para criar lógica semelhante a código sem uma linguagem de programação. Ajuda essencialmente a reduzir o tempo, permitindo que você traga a automação para o ciclo de trabalho. Ele ajuda os administradores do Salesforce a concluir tarefas com eficiência de tempo, alta precisão e pequenos bloqueios. Os fluxos são diversos, pois não estão vinculados a nenhum objeto ou processo.
+  Flow: coleta dados e ajuda a realizar ações em uma organização ou sistema externo. Ele oferece dois tipos de fluxo: fluxo de tela e fluxo iniciado automaticamente. O fluxo de tela é usado quando uma organização deseja coletar dados de seus usuários. Por outro lado, um fluxo iniciado automaticamente é usado para iniciar um fluxo internamente para registrar alterações depois que um usuário clica em um botão. O Flow Builder é a interface declarativa para criar fluxos individuais. Ele pode ser usado para criar lógica semelhante a código sem uma linguagem de programação. Ajuda essencialmente a reduzir o tempo, permitindo que você traga a automação para o ciclo de trabalho. Ele ajuda os administradores do Salesforce a concluir tarefas com eficiência de tempo, alta precisão e pequenos bloqueios. **Os fluxos são diversos, pois não estão vinculados a nenhum objeto ou processo.**
 
   Workflow: O Salesforce Workflow é um mecanismo de lógica de negócios que permite ao usuário definir algumas regras que automatizarão ações específicas quando um determinado critério ou condição for atendido. Em palavras simples, o Salesforce Workflow executa essencialmente algumas atividades automatizadas quando um determinado padrão ou condição é atendido. O uso do Salesforce Workflow economiza tempo, pois atua como uma solução para avaliar e concluir diferentes processos internos de uma empresa de forma automatizada, proporcionando uma saída muito mais rápida do que o trabalho manual. Essa automação também ajuda na otimização de vários procedimentos sistemáticos. A essência do Workflow está nas regras do Workflow que fornecem critérios específicos que devem ser necessariamente atendidos para acionar ações automatizadas. Por exemplo - Uma alteração de registro, como uma alteração no campo "Hora" pode ser definida para acionar o processo de envio de um alerta de e-mail de notificação automática para um usuário.
 
