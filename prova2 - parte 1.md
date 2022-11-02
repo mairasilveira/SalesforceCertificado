@@ -326,66 +326,96 @@ D. Add to manual sharing list
 
 ___
 ## Questão 15
+> Sales reps at Northern Trail Outfitters have asked for a way to change the Probability field value of their Opportunities. What should an administrator suggest to meet this request?
 
-A.
+> Os representantes de vendas da Northern Trail Outfitters pediram uma maneira de alterar o valor do campo Probabilidade de suas Oportunidades. O que um administrador deve sugerir para atender a essa solicitação?
 
-B.
+A. Make the field editable on page layouts
 
-C.
+B. Create a custom field on Opportunity
 
-D.
+C. Configure Forecasting support
+
+D. Define a new Stage picklist value
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A (checked)
+
+  Forecasting support - suporte de previsão:
+É uma funcionalidade específica que permite aos usuários prever e planejar o ciclo de vendas desde o pipeline até as vendas fechadas e gerenciar as expectativas de vendas em toda a sua organização de vendas.
 </details>
 
 ___
 ## Questão 16
+> Northern Trail Outfitters wants to encourage employees to choose secure and appropriate passwords for their salesforce accounts. Which three password policies should an administrator configure?
 
-A.
+> A Northern Trail Outfitters quer incentivar os funcionários a escolherem senhas seguras e apropriadas para suas contas da força de vendas. Quais são as três políticas de senha que um administrador deve configurar?
 
-B.
+A. Number of days until expiration
 
-C.
+B. Password complexity requirements
 
-D.
+C. Require use of Password Manager App
+
+D. Prohibited password values
+
+E. Maximum invalid login attempts
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A, B e E (checked)
 </details>
 
 ___
 ## Questão 17
+> An administrator installed a managed package that contains a permission set group. The permission set group that was installed includes Delete access on several objects, and the administrator needs to prevent users in the permission set group from being able to delete records. What should the administrator do to control Delete access?
 
-A.
+> Um administrador instalou um pacote gerenciado que contém um grupo de conjuntos de permissões. O grupo de conjuntos de permissões que foi instalado inclui acesso Excluir em vários objetos, e o administrador precisa impedir que os usuários do grupo de conjuntos de permissões possam excluir registros. O que o administrador deve fazer para controlar o acesso de exclusão?
 
-B.
+A. Edit the profile for the users to remove Delete access from the objects
 
-C.
+(*Edite o perfil para os usuários removerem o acesso Excluir dos objetos*)
 
-D.
+B. Create a new permission set that has Delete access deselected for the objects
+
+(*Crie um novo conjunto de permissões que tenha o acesso Excluir desmarcado para os objetos*)
+
+C. Use a muting permission set with a permission set group to mute selected permissions
+
+(*Use um conjunto de permissões de silenciamento com um grupo de conjuntos de permissões para silenciar as permissões selecionadas*)
+
+D. Create a new role that prevents Delete permissions from rolling up to the users
+
+(*Crie uma nova função que impeça que as permissões de exclusão sejam acumuladas para os usuários*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C (checked)
 </details>
 
 ___
 ## Questão 18
+> A team of support users at Cloud Kicks is helping inside sales reps make follow-up calls to prospects that filled an interest form online. The team currently does not have access to the Lead object. How should an administrator provide proper access?
 
-A.
+> Uma equipe de usuários de suporte da Cloud Kicks está ajudando os representantes de vendas internos a fazer ligações de acompanhamento para clientes em potencial que preencheram um formulário de interesse online. A equipe atualmente não tem acesso ao objeto Lead. Como um administrador deve fornecer acesso adequado?
 
-B.
+A. Configure permission sets
 
-C.
+B. Create a new profile
 
-D.
+C. Set up Manual sharing
+
+D. Assign a new role
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A (checked)
+
+
+  Permission sets: A permission set is a collection of settings and permissions that give users access to various tools and functions. Permission sets extend users' functional access without changing their profiles. Users can have only one profile but, depending on the Salesforce edition, they can have multiple permission sets.
+
+  Manual sharing: Manual sharing gives other users access to certain **types of records**, including accounts, contacts, and leads. Sometimes, granting access to one record includes access to all its associated records. For example, if you grant another user access to an account, the user automatically has access to all the opportunities and cases associated with that account
 </details>
 
 ___
