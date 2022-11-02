@@ -19,7 +19,9 @@ ___
 
 > Qual ferramenta um administrador deve usar para identificar e corrigir possíveis vulnerabilidades de sessão?
 
-A. Field History Tracking
+A. Field History Tracking 
+
+(*O histórico do campo respeita as permissões do usuário atual e não registra as alterações que ocorrem no contexto do sistema. O Salesforce tenta rastrear todas as alterações em um campo rastreado pelo histórico, mesmo que uma alteração específica nunca seja armazenada no banco de dados.*)
 
 B. Security Health Check
 
@@ -180,6 +182,12 @@ D. Rich text
 <details>
   <summary>Gabarito:</summary>
   B e D (checked)
+
+  Related list: mostra uma lista de registros relacionados com base em um objeto específico. Por exemplo, se você estiver visualizando uma página de detalhes de contato, poderá especificar para ver os casos relacionados a esse contato.
+
+  Related record: The Related Record List component shows, in a list, a single type of record related to a record. For example, if you're looking at an account, you can see a related list of contacts for that account.
+
+  Rich text: Os campos rich text do artigo de conhecimento fornecem funções adicionais, como a capacidade de exibir e editar o HTML de origem, suporte para mais estilos HTML e links inteligentes entre artigos. Com um editor de rich text, você pode editar ou adicionar conteúdo, tabelas, links, imagens e outros componentes da Web em uma página da Web sem escrever uma única linha de código
 </details>
 
 ___
@@ -218,6 +226,12 @@ D. Quick Action
 <details>
   <summary>Gabarito:</summary>
   A e B (checked)
+
+Outbond message:
+Uma mensagem de saída envia informações para um endpoint designado, como um serviço externo. Você configura outbond messages em setup. Você deve configurar o endpoint externo e criar um listener para as mensagens usando a API SOAP.
+
+Quick action:
+Com ações rápidas personalizadas, você pode facilitar ao máximo a navegação e o fluxo de trabalho de seus usuários, dando a eles acesso conveniente às informações mais importantes. Por exemplo, você pode permitir que os usuários criem ou atualizem registros e registrem chamadas diretamente no feed do Chatter ou no dispositivo móvel.
 </details>
 
 ___
