@@ -466,81 +466,109 @@ D. Validation Rule
 
 ___
 ## Questão 21
+> Users at Cloud Kicks are repporting different options when updating a custom picklist on the Opportunity object based on the kind of opportunity. Where should an administrator update the option in the picklist?
 
-A.
+> Os usuários do Cloud Kicks estão relatando diferentes opções ao atualizar uma lista de opções personalizada no objeto Oportunidade com base no tipo de oportunidade. Onde um administrador deve atualizar a opção na lista de opções?
 
-B.
+A. Picklist value sets
 
-C.
+B. Related lookup filters
 
-D.
+C. Fields and relationships
+
+D. Record type
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D (checked)
+
+
+  Os record types do Salesforce são formas de agrupar registros em um objeto específico. Normalmente, eles se concentram no que fará mais sentido para o usuário final. Exemplos de quando os record types podem ser necessários: Tipos de contas que diferentes grupos precisam acessar – contas de clientes, contas de parceiros, etc.
 </details>
 
 ___
 ## Questão 22
+> Cloud Kicks (CK) is partnering with a used shoe and second-hand bicycle emporium. CK has an automated business process it wants to run once a week to count the number of open cases related to an account. How should the administrator recommend automating this business process?
 
-A.
+> Cloud Kicks (CK) está fazendo parceria com um empório de calçados usados e bicicletas de segunda mão. A CK tem um processo de negócios automatizado que deseja executar uma vez por semana para contar o número de casos abertos relacionados a uma conta. Como o administrador deve recomendar a automatização desse processo de negócios?
 
-B.
+A. Configure a scheduled flow in Flow Builder
 
-C.
+B. Create a workflow rule with an outbound message
 
-D.
+C. Set up a scheduled process in Process Builder
+
+D. Use a process to update the account when it is edited
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B (checked)
+
+
+  Outbound messaging uses the notifications() call to send SOAP messages over HTTP(S) to a designated endpoint when triggered by a workflow rule.
+  > link outbound message and workflow rule: https://www.apexhours.com/outbound-message-in-salesforce/
 </details>
 
 ___
 ## Questão 23
+> The administrator for Cloud Kick has created a screen flow to help service reps ask the same set of questions when customers call in with issues. This screen should be visible from cases. How should the screen flow be distributed?
 
-A.
+> O administrador do Cloud Kick criou um fluxo de tela para ajudar os representantes de serviço a fazer o mesmo conjunto de perguntas quando os clientes ligam com problemas. Esta tela deve ser visível nos casos. Como o fluxo de tela deve ser distribuído?
 
-B.
+A. Home page
 
-C.
+B. Page layout
 
-D.
+C. Component filter
+
+D. Lightning page
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D (checked)
 </details>
 
 ___
 ## Questão 24
+> Sales users at Universal Containers are reporting that it is taking a long time to edit opportunity records. Normally, the only field they are editing is the Stage field. Which two options should the administrator recommend to help simplify the process? Choose 2 answers.
 
-A.
+> Os usuários de vendas da Universal Containers estão relatando que está demorando muito para editar os registros de oportunidade. Normalmente, o único campo que eles estão editando é o campo Stage. Quais são as duas opções que o administrador deve recomendar para ajudar a simplificar o processo? Escolha 2 respostas.
 
-B.
+A. Add a Path for stage to the opportunity record page
 
-C.
+(*Adicionar um caminho para o estágio na página de registro da oportunidade*)
 
-D.
+B. Use a Kanban list view for Opportunity
+
+C. Create a simplified Opportunity page layout
+
+D. Configure an autolaunched flow for Opportunity editing
+
+(*Configurar um fluxo iniciado automaticamente para edição de oportunidade*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e D (checked)
 </details>
 
 ___
 ## Questão 25
+> Universal Containers introduced a new product and wants to track all associated cases that get logged. They are looking for an automated solution that would give the product's two lead engineers read/write access to all new cases that reference the new product. What should an administrator do to satisfy this requirement?
 
-A.
+> A Universal Containers lançou um novo produto e deseja rastrear todos os casos associados que são registrados. Eles estão procurando uma solução automatizada que dê aos dois engenheiros líderes do produto acesso de leitura/gravação a todos os novos casos que fazem referência ao novo produto. O que um administrador deve fazer para atender a esse requisito?
 
-B.
+A. Create an auto-response rule and a public group
 
-C.
+B. Create a predefined case team and an assignment rule
 
-D.
+C. Create a user-based sharing rule and an ad-hoc case team
+
+D. Create a queue and a criteria-based sharing rule
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B 
+
+  > link: https://help.salesforce.com/s/articleView?id=sf.creating_assignment_rules.htm&type=5
 </details>
 
