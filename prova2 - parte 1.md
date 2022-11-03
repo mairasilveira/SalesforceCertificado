@@ -507,8 +507,8 @@ D. Use a process to update the account when it is edited
 
   Outbound messaging uses the notifications() call to send SOAP messages over HTTP(S) to a designated endpoint when triggered by a workflow rule.
 
-  A Cloud Kicks (CK) está usando a força de vendas enquanto o parceiro pode não estar usando a força de vendas (loja de sapatos e empório de bicicletas de segunda mão). Agora, o Salesforce deve se comunicar com o provedor de serviços externo, que pode ser uma organização da salesforce OU uma organização que não seja da salesforce. A melhor maneira de automatizar esse recurso é via mensagem de saída. As mensagens de saída permitem especificar que as alterações nos campos no Salesforce podem fazer com que as mensagens com valores de campo sejam enviadas para servidores externos designados. As mensagens de saída fazem parte da funcionalidade da regra de fluxo de trabalho no Salesforce. As regras de fluxo de trabalho observam tipos específicos de alterações de campo e acionam ações automáticas do Salesforce, como enviar alertas por email, criar registros de tarefas ou enviar uma mensagem de saída.
-  
+  A Cloud Kicks (CK) está usando o salesforce enquanto o parceiro pode não estar usando salesforce (loja de sapatos e empório de bicicletas de segunda mão). Agora, o Salesforce deve se comunicar com o provedor de serviços externo, que pode ser uma organização da salesforce OU uma organização que não seja da salesforce. A melhor maneira de automatizar esse recurso é via mensagem de saída. As mensagens de saída permitem especificar que as alterações nos campos no Salesforce podem fazer com que as mensagens com valores de campo sejam enviadas para servidores externos designados. As mensagens de saída fazem parte da funcionalidade da regra de fluxo de trabalho no Salesforce. As regras de fluxo de trabalho observam tipos específicos de alterações de campo e acionam ações automáticas do Salesforce, como enviar alertas por email, criar registros de tarefas ou enviar uma mensagem de saída.
+
   > link outbound message and workflow rule: https://www.apexhours.com/outbound-message-in-salesforce/
 </details>
 
