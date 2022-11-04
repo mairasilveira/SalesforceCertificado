@@ -313,80 +313,110 @@ D. Existing field values will remain unchanged
 
 ___
 ## Questão 41
+> Cloud Kicks is working on a better way to track its product shipments utilizing Salesforce. Which field type should an administrator use to capture coordinates?
 
-A.
+> A Cloud Kicks está trabalhando em uma maneira melhor de rastrear suas remessas de produtos utilizando o Salesforce. Qual tipo de campo um administrador deve usar para capturar coordenadas?
 
-B.
+A. External lookup
 
-C.
+B. Geolocation
 
-D.
+C. Geofence
+
+D. Custom address
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B (checked)
 </details>
 
 ___
 ## Questão 42
+> The marketing director at Northern Trail Outfitters has requested that the Budget field is populated in order for the Lead Status field to be marked as qualified. What tool should the administrator use to fulfill this request?
 
-A.
+> O diretor de marketing da Northern Trail Outfitters solicitou que o campo Orçamento seja preenchido para que o campo Status do lead seja marcado como qualificado. Qual ferramenta o administrador deve usar para atender a essa solicitação?
 
-B.
+A. Workflow Rule
 
-C.
+B. Validation Rule
 
-D.
+C. Require Field
+
+D. Lead Conversion
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B (checked)
 </details>
 
 ___
 ## Questão 43
+> The administrator at Ursa Major Solar has created a custom report type and built a report for the sales operations team. However, none of the users are able to access the report. Which two options could cause this issue? Choose 2 answers
 
-A.
+> O administrador da Ursa Major Solar criou um tipo de relatório personalizado e criou um relatório para a equipe de operações de vendas. No entanto, nenhum dos usuários pode acessar o relatório. Quais duas opções podem causar esse problema?
 
-B.
+A. The report is saved in a private folder
 
-C.
+B. The custom report type is in development
 
-D.
+C. The user's profile is missing View access
+
+D. The org has reached its limit for custom report types
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A e C (checked)
 </details>
 
 ___
 ## Questão 44
+> Northern Trail Outfitters (NTO) has deployed my domain. The Chief Marketing Officer wants to make sure that all of the Salesforce users log in using the branded login URL. There needs to be a grace period for the user's bookmarks to be updated. How should the administrator configure the policies in my domain settings?
 
-A.
+> A Northern Trail Outfitters (NTO) implantou meu domínio. O diretor de marketing quer garantir que todos os usuários do Salesforce façam login usando o URL de login da marca. É necessário que haja um período de carência para que os favoritos do usuário sejam atualizados. Como o administrador deve configurar as políticas nas configurações do meu domínio?
 
-B.
+A. Set the login policy to require login from https://nto.my.salesforce.com
 
-C.
+B. Set the redirect policy to Redirect with a warning to the same page within the domain
 
-D.
+C. Set the login policy to prevent login from https://login.salesforce.com
+
+D. Set the Redirect policy to Do Not redirect
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B
+
+No fim das contas, você quer forçar todos a usar as URLs da marca do Meu domínio da Jedeye Tech. Mas, por enquanto, você quer dar a seus usuários algum tempo para que atualizem seus favoritos. Ou seja, selecione a política de redirecionamento, Redirecionamento para a mesma página do domínio com um aviso. Agora, quando os usuários tentam acessar sua organização usando uma URL de instância, eles recebem uma mensagem **incentivando-os a atualizar seus favoritos**. Essa opção é boa por alguns dias para ajudar os usuários a migrar para as URLs do Meu domínio da sua organização. Depois disso, você pode atualizar o Meu domínio novamente para usar a política de redirecionamento recomendada: Não redirecionar.
+
+  > Alternativa B - Redirecionar com um aviso para a mesma página no domínio – Lembre os usuários de usar as URLs do Meu domínio antes de redirecioná-los para sua organização. Isso pode ajudar a alterar o comportamento do usuário para que os usuários façam a transição para as URLs da marca.
+
+  > Alternativa D - Não redirecionar (recomendado) – Exigir que o usuário utilize a URL de login do Meu domínio ao acessar sua organização. Essa configuração pressupõe que seus usuários fizeram a transição para usar as novas URLs do Meu domínio. Se não tiverem feito isso, eles receberão uma mensagem de erro quando tentarem usar a URL de instância do Salesforce.
+
+
+  Ter um Meu domínio vai muito além de aproveitar uma solução conveniente e criar uma experiência personalizada de login naquela organização. O que importa é conseguir controlar melhor seu processo de login e simplificar os procedimentos de autenticação. Na verdade, o Salesforce exige que você tenha um Meu domínio para:
+- Trabalhar em várias organizações do Salesforce no mesmo navegador.
+- Configurar um login único (SSO) com terceiros provedores de identidade.
+- Definir provedores de autenticação, como o Google ou o Facebook, para seus usuários poderem fazer o login na sua organização do Salesforce com as credenciais das contas sociais que já usam.
+- Personalizar a página de login da sua organização com sua marca.
 </details>
 
 ___
 ## Questão 45
+> Northern Trail Outfitters has the Case object set to private. The support manager raised a concern that reps has a broader view of data than expected and can see all cases on their group's dashboards. What could be causing reps to have inappropriate access to data on dashboards?
 
-A.
+> A Northern Trail Outfitters tem o objeto Case definido como privado. O gerente de suporte levantou uma preocupação de que os representantes têm uma visão mais ampla dos dados do que o esperado e podem ver todos os casos nos painéis de seus grupos. O que pode estar fazendo com que os representantes tenham acesso inadequado aos dados nos painéis?
 
-B.
+A. Public Dashboards
 
-C.
+B. Dynamic Dashboards
 
-D.
+C. Dashboard Filters
+
+D. Dashboard Subscriptions
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B (checked)
+
+  Dynamic Dashboards: Digamos que seu pessoal de vendas possa visualizar apenas suas próprias oportunidades, mas você gostaria de revisar todas as oportunidades fechadas no último trimestre. Crie um painel e permita que as pessoas vejam o painel como você (ou qualquer outra pessoa que possa ver todas as oportunidades). Quando seus vendedores abrem o painel, eles veem informações sobre todas as oportunidades em vez de apenas suas oportunidades. (O acesso a dados deles no Salesforce permanece inalterado. Eles só podem ver mais dados em seu painel.)
 </details>
