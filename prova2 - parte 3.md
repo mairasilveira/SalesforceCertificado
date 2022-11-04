@@ -256,112 +256,133 @@ D. Flow Builder
 
 ___
 ## Questão 59
+> An administrator at AW Computing has been asked to help the Support team with report folders. They want a folder called Support Reports and two folders underneath called Helpdesk and R&D. The Support organization uses public groups for Support Agents, R&D, and Managers. Support agents should be able to run Helpdesk reports, but should not be able to view R&D reports. Support managers should be able to view and edit all reports. Which two ways should these folders be shared? Choose 2 answers.
 
-A.
+> Um administrador da AW Computing foi solicitado a ajudar a equipe de suporte com pastas de relatórios. Eles querem uma pasta chamada Relatórios de Suporte e duas pastas abaixo chamadas Helpdesk e R&D. A organização de suporte usa grupos públicos para agentes de suporte, P&D e gerentes. Os agentes de suporte devem ser capazes de executar relatórios do Helpdesk, mas não devem ser capazes de visualizar relatórios de P&D. Os gerentes de suporte devem poder visualizar e editar todos os relatórios. De quais duas maneiras essas pastas devem ser compartilhadas? Escolha 2 respostas.
 
-B.
+A. Share the R&D folder with Support Managers with Edit Access
 
-C.
+B. Share the Helpdesk folder with Support Agents with View access
 
-D.
+C. Share the Support Reports folder with Support Managers with Edit Access
+
+D. hare the Support Reports folder with Support Agents with View Access
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e C (checked)
 </details>
 
 ___
 ## Questão 60
+> When a Cloud Kicks opportunity closes, the company would like to automatically create a renewal opportunity. Which two automation tools should an administrator use to accomplish this request? Choose 2 answers
 
-A.
+> Quando uma oportunidade Cloud Kicks é fechada, a empresa gostaria de criar automaticamente uma oportunidade de renovação. Quais duas ferramentas de automação um administrador deve usar para realizar essa solicitação? Escolha 2 respostas
 
-B.
+A. Approval Proccess
 
-C.
+B. Process Builder
 
-D.
+C. Workflow Rule
+
+D. Flow Builder
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e D (checked)
 </details>
 
 ___
 ## Questão 61
+> Ursa Major Solar has its business hours set from 9:00 AM to 5:00 PM for the reps that are on Pacific Time. The reps on Eastern Time need business hours set to start 3 hours earlier to cover for support. How should an administrator solve for this issue?
 
-A.
+> A Ursa Major Solar tem seu horário comercial definido das 9h às 17h para os representantes que estão no horário do Pacífico. Os representantes no horário do leste precisam de horário comercial definido para começar 3 horas antes para cobrir o suporte. Como um administrador deve resolver esse problema?
 
-B.
+A. Adjust the current business hours to accomodate the Eastern Time Zone
 
-C.
+B. Set temporary business hours for each time zone
 
-D.
+C. Create one set of business hours per time zone
+
+D. Allow the reps to set business hours manually
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C (checked)
 </details>
 
 ___
 ## Questão 62
+> At cloud kicks sales reps use discounts on the opportunity record to help win sales on products. When an opportunity is won, they then have to manually apply the discount up the related opportunity products. The sales manager has asked if there is a way to automate this time-consuming task. What should the administrator use to deliver this requirement?
 
-A.
+> Na cloud kicks, os representantes de vendas usam descontos no registro de oportunidades para ajudar a ganhar vendas de produtos. Quando uma oportunidade é ganha, eles precisam aplicar manualmente o desconto nos produtos de oportunidade relacionados. O gerente de vendas perguntou se existe uma maneira de automatizar essa tarefa demorada. O que o administrador deve usar para entregar esse requisito?
 
-B.
+A. Approval Process
 
-C.
+B. Prebuilt Macro
 
-D.
+C. Flow Builder
+
+D. Formula Field
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C (checked)
 </details>
 
 ___
 ## Questão 63
+> An administrator at Cloud Kicks is building a flow that needs to search for records that meet certain conditions and store values from those records in variables for use later in the flow. What flow element should the administrator add?
 
-A.
+> Um administrador da Cloud Kicks está construindo um fluxo que precisa procurar registros que atendam a determinadas condições e armazenar valores desses registros em variáveis para uso posterior no fluxo. Qual elemento de fluxo o administrador deve adicionar?
 
-B.
+A. Update Records
 
-C.
+B. Assignment
 
-D.
+C. Get Records
+
+D. Create Records
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C (checked)
 </details>
 
 ___
 ## Questão 64
+> Which two actions should an administrator perform with Case escalation rules? Choose 2 answers
 
-A.
+> Quais são as duas ações que um administrador deve executar com as regras de escalonamento de caso? Escolha 2 respostas
 
-B.
+A. Re-open the Case
 
-C.
+B. Send email notifications
 
-D.
+C. Change the Case Priority
+
+D. Re-assign the Case
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e D (checked)
 </details>
 
 ___
 ## Questão 65
+> Executives at Cloud Kicks have reported that their dashboards are showing inaccurate data. The administrator has discovered that users have been changing the source reports. Which two actions should the administrator take to preserve the integrity of the source reports? Choose 2 answers
 
-A.
+> Executivos da Cloud Kicks relataram que seus painéis estão mostrando dados imprecisos. O administrador descobriu que os usuários estão alterando os relatórios de origem. Quais são as duas ações que o administrador deve tomar para preservar a integridade dos relatórios de origem? Escolha 2 respostas
 
-B.
+A. Move the dashboard to the user's private folder
 
-C.
+B. Move the dashboard reports to the view-only folder
 
-D.
+C. Change the dashboard to be a dynamic dashboard
+
+D. Create a new report folder with viewer access
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e D (checked)
 </details>
