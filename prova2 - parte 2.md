@@ -214,82 +214,101 @@ D. Update the dashboard folder settings to manager for the sales reps role
 
 ___
 ## Questão 36
+> A sales rep has left the company and an administrator has been asked to re-assign all their accounts and opportunities to a new sales rep and keep the teams as is. Which tool should an administrator use to accomplish this?
 
-A.
+> Um representante de vendas deixou a empresa e um administrador foi solicitado a reatribuir todas as suas contas e oportunidades a um novo representante de vendas e manter as equipes como estão. Qual ferramenta um administrador deve usar para fazer isso?
 
-B.
+A. Data Loader
 
-C.
+B. Dataloader.io
 
-D.
+C. Mass Transfer Tool
+
+D. Data Import Wizard
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C (checked)
 </details>
 
 ___
 ## Questão 37
+> Sales reps at Ursa Major Solar are having difficulty managing deals. The leadership team has asked the administrator to help sales reps prioritize and close more deals. What should the administrator configure to help with these issues?
 
-A.
+> Os representantes de vendas da Ursa Major Solar estão tendo dificuldades para gerenciar negócios. A equipe de liderança pediu ao administrador para ajudar os representantes de vendas a priorizar e fechar mais negócios. O que o administrador deve configurar para ajudar com esses problemas?
 
-B.
+A. Einsten Search Personalization
 
-C.
+B. Einsten Lead Scoring
 
-D.
+(*O Einstein Lead Scoring adiciona um campo Lead Score aos leads. O Lead Score permite que os representantes de vendas priorizem seu trabalho classificando os leads de acordo com suas semelhanças com os leads convertidos anteriormente. Leads com pontuações mais altas têm mais em comum com leads que converteram no passado.*)
+
+C. Einsten Activity Capture
+
+(*O Einstein Activity Capture é uma ferramenta de aumento de produtividade que ajuda a manter atualizados os dados entre o Salesforce e seus aplicativos de email e calendário. Para manter os dados atualizados entre os aplicativos, o Einstein Activity Capture se concentra em três tipos de dados: e-mails, eventos e contatos. Saiba mais sobre como o Einstein Activity Capture lida com cada tipo de dados.*)
+
+D. Einsten Opportunity Scoring
+
+(*As pontuações de oportunidade indicam a probabilidade de uma oportunidade ser ganha. Para cada pontuação de oportunidade, o Einstein mostra os fatores que mais contribuíram para a pontuação, tanto positiva quanto negativamente.*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D (Checked)
 </details>
 
 ___
 ## Questão 38
+> Northern Trail Outfitters has a custom quick action on Account that creates a new Case. How should an administrator make the quick action available on the Salesforce mobile app?
 
-A.
+> A Northern Trail Outfitters tem uma ação rápida personalizada na conta que cria um novo caso. Como um administrador deve disponibilizar a ação rápida no aplicativo móvel Salesforce?
 
-B.
+A. Create a custom Lightning App with the action
 
-C.
+B. Modify compact Case page layout to include the action
 
-D.
+C. Include the action in the Salesforce Mobile Navigation menu
+
+D. Add the Salesforce Mobile and Lightning Experience action to the page layout
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D (checked)
 </details>
 
 ___
 ## Questão 39
+> Universal Containers wants to increase the security of their org by requiring stricter user passwords. Which two of the following should an administrator configure? Choose 2 answers.
 
-A.
+> A Universal Containers deseja aumentar a segurança de sua organização exigindo senhas de usuário mais rígidas. Quais das duas opções a seguir um administrador deve configurar? 
 
-B.
+A. Password different than username
 
-C.
+B. Password complexity requirement
 
-D.
+C. Prevent common words
+
+D. Minimum password length
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e D (checked)
 </details>
 
 ___
 ## Questão 40
+> An administrator has been asked to change the data type of an auto number to a text field. What should the administrator be aware of before changing the field?
 
-A.
+A. Existing Auto Number field to Text is prevented
 
-B.
+B. Existing field values will be deleted
 
-C.
+C. Existing field values will be converted
 
-D.
+D. Existing field values will remain unchanged
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D
 </details>
 
 ___
