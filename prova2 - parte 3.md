@@ -157,6 +157,8 @@ D. Map the lead custom field to the product's product category field
 <details>
   <summary>Gabarito:</summary>
   A (checked)
+
+  Este mapeamento sincroniza as atualizações entre os campos de todos os registros compartilhados
 </details>
 
 ___
