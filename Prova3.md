@@ -178,370 +178,338 @@ D. Automation Studio
 
 ___
 ## Questão 16
+> Cloud Kicks intends to protect data with backups by using the data export service. Which two considerations should the administrator remember when scheduling the export? Choose 2 answers
 
-A.
+> Cloud Kicks pretende proteger os dados com backups usando o serviço de exportação de dados. Quais são as duas considerações que o administrador deve se lembrar ao programar a exportação? Escolha 2 respostas
 
-B.
+A. Data export service should be run from a sandbox
 
-C.
+(*O serviço de exportação de dados deve ser executado a partir de um sandbox*)
 
-D.
+B. Metadata backups are limited to sandbox refresh intervals
+
+(*Os backups de metadados são limitados a intervalos de atualização de sandbox*)
+
+C. Data backups are limited to weekly or monthly intervals
+
+(*Os backups de dados são limitados a intervalos semanais ou mensais*)
+
+D. Metadata backups must be run via a separate process
+
+(*Os backups de metadados devem ser executados por meio de um processo separado*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e C (checked)
 </details>
 
 ___
 ## Questão 17
+> Cloud Kicks has a customer success agent going on leave and needs to change ownership on multiple cases. Which two users are able to fulfill this request?
 
-A.
+> A Cloud Kicks tem um agente de sucesso do cliente de licença e precisa mudar de propriedade em vários casos. Quais dois usuários podem atender a essa solicitação?
 
-B.
+A. A user with Read permission on the account
 
-C.
+B. A user with the Manage Cases permission
 
-D.
+C. A user with a manager role above the agent
+
+D. A user with the System Administrator profile
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e D (checked)
 </details>
 
 ___
 ## Questão 18
+> Universal Containers has enabled Data Protection and Privacy for its org. Which page layouts will have the Individual field available for tracking data privacy information?
 
-A.
+> A Universal Containers habilitou a Proteção e Privacidade de Dados para sua organização. Quais layouts de página terão o campo Individual disponível para rastrear informações de privacidade de dados?
 
-B.
+A. Contact, Lead, and Person Account
 
-C.
+B. Account and User
 
-D.
+C. Individual, User and Account
+
+D. Case and Opportunity
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B (checked)
 </details>
 
 ___
 ## Questão 19
+> The administrator at Cloud Kicks has been asked to change the company's Shoe Style field to prevent users from selecting more than one style on a record. Which two steps should an administrator do to accomplish this? Choose 2
 
-A.
+> O administrador da Cloud Kicks foi solicitado a alterar o campo Shoe Style da empresa para impedir que os usuários selecionem mais de um estilo em um registro. Quais são as duas etapas que um administrador deve fazer para conseguir isso? Escolha 2 respostas
 
-B.
+A. Change the field type from a multi-select picklist field to a picklist field
 
-C.
+B. Select the "Choose only one value" checkbox on the picklist field
 
-D.
+C. Back-up the Shoe Style values in existing records
+
+D. Reactivate the appropriate Shoe Style values after the field type changes
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A e B
 </details>
 
 ___
 ## Questão 20
+> Northern Trail Outfitters has hired interns to enter Leads into Salesforce and has requested a way to indentify these new records from existing Leads. What approach should an administrator take to meet this requirement?
 
-A.
+> A Northern Trail Outfitters contratou estagiários para inserir leads no Salesforce e solicitou uma maneira de identificar esses novos registros de leads existentes. Que abordagem um administrador deve adotar para atender a esse requisito?
 
-B.
+A. Update the active Lead Assignment Rules
 
-C.
+B. Set up Web-to-Lead for the interns' use
 
-D.
+C. Create a separate Lead Lightning App
+
+D. Define a record type and assign it to the interns
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D (checked)
 </details>
 
 ___
 ## Questão 22
+> An administrator at DreamHouse Realty needs to create customized pages for the Salesforce mobile app. Which two types of pages could an administrator build and customize using the Lightning App Builder? Choose 2 answers
 
-A.
+> Um administrador da DreamHouse Realty precisa criar páginas personalizadas para o aplicativo móvel Salesforce. Quais dois tipos de páginas um administrador pode criar e personalizar usando o Lightning App Builder? Escolha 2 respostas
 
-B.
+A. Dashboard page
 
-C.
+B. User page
 
-D.
+C. Record page
 
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 19
-
-A.
-
-B.
-
-C.
-
-D.
+D. App page
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C e D (checked)
+
+  There are 3 types of pages can be created using Lightning App Builder. They are,
+App Page.
+Home Page.
+Record Page.
 </details>
 
 ___
 ## Questão 24
+> DreamHouse Realty (DHR) wants a templated process with a mortgage calculator that generates leads for loans. DHR needs to complete the project within 30 days and has maxed out its budget for the year. Which AppExchange item should help the administrator meet the request?
 
-A.
+> A DreamHouse Realty (DHR) quer um processo modelo com uma calculadora de hipoteca que gere leads para empréstimos. O DHR precisa concluir o projeto em 30 dias e atingiu seu orçamento para o ano. Qual item do AppExchange deve ajudar o administrador a atender à solicitação?
 
-B.
+A. Lightning Data
 
-C.
+B. Bolt Solutions
 
-D.
+C. Lightning Community
+
+D. Flow Solutions
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D (checked)
+
+  >A Lightning Bolt Solution is a portable package that's packed with power. It can combine custom Lightning apps, business process flows, and Experience Builder templates and pages in an easy-to-build and distributable form.
 </details>
 
 ___
 ## Questão 25
+> The administrator has been asked to automate a simple field update on the account. When a support agent changes the status of the account to 'Audited', they would like the system to automatically update the Audited Date field on the account with today's date. Which tool should the administrator use to complete this automation?
 
-A.
+> O administrador foi solicitado a automatizar uma atualização de campo simples na conta. Quando um agente de suporte altera o status da conta para 'Auditado', ele deseja que o sistema atualize automaticamente o campo Data da auditoria na conta com a data de hoje. Qual ferramenta o administrador deve usar para concluir essa automação?
 
-B.
+A. Validation Rule
 
-C.
+B. Approval Process
 
-D.
+C. Flow Builder
+
+D. Formula Field
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C (checked)
 </details>
 
 ___
 ## Questão 27
+> Users at Cloud Kicks want to be able to create a task that will repeat every two weeks. What should an administrator do to meet this requirement?
 
-A.
+> Os usuários da Cloud Kicks querem poder criar uma tarefa que se repetirá a cada duas semanas. O que um administrador deve fazer para atender a esse requisito?
 
-B.
+A. Turn on Recurring Activities
 
-C.
+B. Workflow rule to create recurring tasks
 
-D.
+C. Flow to create recurring tasks
 
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 28
-
-A.
-
-B.
-
-C.
-
-D.
+D. Enable Creation of Recurring Tasks
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D (checked)
 </details>
 
 ___
 ## Questão 29
+> The administrator at Cloud Kicks has a custom picklist field on Lead, which is missing on the Contact when leads are converted. Which two items should the administrator do to make sure these values are populated? Choose 2 answers
 
-A.
+> O administrador do Cloud Kicks tem um campo de lista de opções personalizado no Lead, que está ausente no Contato quando os leads são convertidos. Quais são os dois itens que o administrador deve fazer para garantir que esses valores sejam preenchidos? Escolha 2 respostas
 
-B.
+A. Create a custom picklist field on Contact
 
-C.
+B. Set the picklist field to be required on the Lead object
 
-D.
+C. Map the picklist field on the Lead to the Contact
 
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 30
-
-A.
-
-B.
-
-C.
-
-D.
+D. Update the picklist value with a validation rule
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A e C (checked)
 </details>
 
 ___
 ## Questão 31
+> Northern Trail Outfitters has a custom quick action on Account that creates a new Case. How should an administrator make the quick action available on the Salesforce mobile app?
 
-A.
+> A Northern Trail Outfitters tem uma ação rápida personalizada na conta que cria um novo caso. Como um administrador deve disponibilizar a ação rápida no aplicativo móvel Salesforce?
 
-B.
+A. Add the Salesforce Mobile and Lightning Experience action to the page layout
 
-C.
+B. Include the action in the Salesforce Mobile Navigation menu
 
-D.
+C. Modify compact Case page layout to include the action
+
+D. Create a custom Lightning App with the action
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A
 </details>
 
 ___
 ## Questão 32
+> Sales reps miss key fields when filling out an opportunity record through the sales process. Reps need to move forward in stages but are unable to enter a previous stage. Which three options should the administrator use to address this need?
 
-A.
+A. Enable guided selling
 
-B.
+B. Use Flor to mark fields required
 
-C.
+C. Configure Opportunity Path
 
-D.
+D. Mark fields required on the page layout
 
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 33
-
-A.
-
-B.
-
-C.
-
-D.
+E. Use validation rules
 
 <details>
   <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 34
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
+  C, D e E
 </details>
 
 ___
 ## Questão 36
+> Universal Containers wants to prevent its service team from accessing deal records. While service users are unable to access deal list views, they are able to find deal records via a serach. What option should the administrator adjust to fully restrict access?
 
-A.
+> A Universal Containers quer impedir que sua equipe de serviço acesse os registros de negócios. Embora os usuários do serviço não consigam acessar as visualizações da lista de negócios, eles podem encontrar registros de negócios por meio de uma pesquisa. Qual opção o administrador deve ajustar para restringir totalmente o acesso?
 
-B.
+A. Record settings and search index
 
-C.
+B. App permissions and search terms
 
-D.
+C. Permissions and tab visibility
+
+D. Page layouts and field-level security
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D
 </details>
 
 ___
 ## Questão 37
+> Once an opportunity reaches the negotiation stage at Cloud Kicks, the Amount field becomes required for sales users. Sales managers need to be able to move opportunities into this stage without knowing the amount. How should the administrator require this field during the negotiation stage for sales users but allow their managers to make changes?
 
-A.
+> Quando uma oportunidade atinge o estágio de negociação no Cloud Kicks, o campo Valor se torna obrigatório para os usuários de vendas. Os gerentes de vendas precisam ser capazes de mover as oportunidades para esse estágio sem saber o valor. Como o administrador deve exigir esse campo durante a fase de negociação para usuários de vendas, mas permitir que seus gerentes façam alterações?
 
-B.
+A. Create a formula field to fill in the field for managers
 
-C.
+B. Configure a validation rule to meet the criteria
 
-D.
+C. Make the field required for all users
+
+D. Assign the Administrator profile to the managers
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B
 </details>
 
 ___
 ## Questão 38
+> Ursa Major Solar has service level agreements (SLA) that are routed to support queues. Cases that meet the 24 hour SLA need to be automatically re-assigned to the next tier queue. Which feature should be used to fulfill this requirement?
 
-A.
+> A Ursa Major Solar tem acordos de nível de serviço (SLA) que são roteados para filas de suporte. Os casos que atendem ao SLA de 24 horas precisam ser reatribuídos automaticamente para a fila do próximo nível. Qual recurso deve ser usado para atender a esse requisito?
 
-B.
+A. Case assignment rule
 
-C.
+B. Case escalation rule
 
-D.
+C. Einsten Case Routing
 
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 39
-
-A.
-
-B.
-
-C.
-
-D.
+D. Auto-response rule
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A ou B
+
+  It's definitely escalation rules, the case has already been assigned and needs to be re assigned after an interval of time to the next "tier queue"
 </details>
 
 ___
 ## Questão 40
+> Universal requires that when an opportunity is closed won, all other open opportunities on the same account must be marked closed lost. Which automation solution should an administrator use to implement this request?
 
-A.
+A. Workflow rule
+ 
+B. Quick action
 
-B.
+C. Flow builder
 
-C.
-
-D.
+D. Outbound Message
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C
 </details>
 
 ___
 ## Questão 41
+> The administrator for AW is working with a user who is having trouble loggin in to Salesforce. What should the administrator do to identify why the user is unable to log in?
 
-A.
+A. Reset the security token for the profile
 
-B.
+B. Pull the password history to ensure the password policy was followed
 
-C.
+C. Review the login history for the user
 
-D.
+D. Check the attempted logins by running the setup audit trail
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A
 </details>
 
 ___
