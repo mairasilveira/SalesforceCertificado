@@ -513,287 +513,335 @@ D. Check the attempted logins by running the setup audit trail
 </details>
 
 ___
-## Questão 42
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
 ## Questão 43
+> A user at Cloud Kicks is having issues logging in to Salesforce. The user asks the administrator to reset their password. Which two options should the administrator consider when resetting the user's password? Choose 2
 
-A.
+> Um usuário da Cloud Kicks está tendo problemas para fazer login no Salesforce. O usuário solicita que o administrador redefina sua senha. Quais são as duas opções que o administrador deve considerar ao redefinir a senha do usuário? Escolha 2
 
-B.
+A. Single sign-on users can reset their own passwords using the forgot password link
 
-C.
+B. After resetting a password, the user may be required to activate their device to successfully log in to Salesforce
 
-D.
+(*Depois de redefinir uma senha, o usuário pode ser solicitado a ativar seu dispositivo para fazer login com sucesso no Salesforce*)
+
+C. Resetting the password will change the user's password policy
+
+(*A redefinição da senha alterará a política de senha do usuário*)
+
+D. Resetting a locked-out user's password automatically unlocks the user's account
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e D
 </details>
 
 ___
 ## Questão 44
+> Northern Trail Outfitters wants to track ROI for contacts that are key stakeholders for opportunities. The VP of sales requested the information be accessible on the opportunities and available for reporting. Which two options should the administrator configure to meet these requirements?
 
-A.
+> A Northern Trail Outfitters deseja rastrear o ROI de contatos que são os principais interessados em oportunidades. O VP de vendas solicitou que as informações estivessem acessíveis em oportunidades e disponíveis para relatórios. Quais são as duas opções que o administrador deve configurar para atender a esses requisitos?
 
-B.
+A. Add the Opportunity Contact Role related list to the Opportunity page layout
 
-C.
+B. Customize Campaign Member Role
 
-D.
+C. Customize Campaign Role
+
+(*Personalizar função da campanha*)
+
+D. Customize Opportunity Contact Role
+
+E. Add the Campaign Member related list to the Opportunity page layout
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A e D 
 </details>
 
 ___
 ## Questão 45
+> The sales team at Ursa Major Solar has asked the administrator to automate an outbound message. What should the administrator utilize to satisfy the request?
 
-A.
+> A equipe de vendas da Ursa Major Solar pediu ao administrador para automatizar uma mensagem de saída. O que o administrador deve utilizar para satisfazer a solicitação?
 
-B.
+A. Workflow Rule
 
-C.
+B. Process Builder
 
-D.
+C. Task Assignment
+
+D. Flow Builder
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A (checked)
 </details>
 
 ___
 ## Questão 47
+> Cloud Kicks needs to change the owner of a case when it has been open for more than 7 days. How should the administrator complete this requirement?
 
-A.
+> O Cloud Kicks precisa alterar o proprietário de um caso quando ele estiver aberto por mais de 7 dias. Como o administrador deve preencher esse requisito?
 
-B.
+A. Escalation Rules
 
-C.
+B. Assignment Rules
 
-D.
+C. Auto-Response Rules
+
+D. Validation Rules
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A (Checked)
 </details>
 
 ___
 ## Questão 48
+> A sales rep at Ursa Major Solar has launched a series of networking events. They are hosting one event per month and ant to be able to report on Campaign ROI by month and series. How should the administrator set up the Campaign to simplify reporting?
 
-A.
+> Um representante de vendas da Ursa Major Solar lançou uma série de eventos de networking. Eles estão hospedando um evento por mês e querem poder relatar o ROI da campanha por mês e por série. Como o administrador deve configurar a Campanha para simplificar a geração de relatórios?
 
-B.
+A. Configure Campaign Member Statuses to record which event Members attended
 
-C.
+(*Configure os status dos membros da campanha para registrar em qual evento os membros compareceram*)
 
-D.
+B. Use Campaign Hierarchy where the monthly events roll up to a parent Campaign
+
+*Use a Hierarquia de campanha em que os eventos mensais são acumulados em uma campanha principal*
+
+C. Add different record types for the monthly event types
+
+D. Create individual Campaigns that all have the same name
+
+*Crie campanhas individuais que tenham o mesmo nome*
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A (checked)
 </details>
 
 ___
 ## Questão 50
+> The Human Ressources department at Northern Trail Outfitters wants employees to provide feedback about their managers using a custom object in Salesforce. It is important that managrs are unable to see the feedback records from their staff. How should an administrator configure the custom object to meet this requirement?
 
-A.
+> O departamento de recursos humanos da Northern Trail Outfitters deseja que os funcionários forneçam feedback sobre seus gerentes usando um objeto personalizado no Salesforce. É importante que os gerentes não consigam ver os registros de feedback de sua equipe. Como um administrador deve configurar o objeto personalizado para atender a esse requisito?
 
-B.
+A. Uncheck Grant Access Using Hierarchies
 
-C.
+B. Set the Default External Access to Private
 
-D.
+C. Configure an owner-based sharing rule
+
+D. Define a criteria-based sharing rule
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D
 </details>
 
 ___
 ## Questão 51
+> The events manager at DreamHouse Realty has a hot lead from a successful open house that needs to become a Contact with an associated Opportunity. How should this be accomplished from the Campaign keeping the associated Campaign Member history?
 
-A.
+> O gerente de eventos da DreamHouse Realty tem um hot lead de uma casa aberta de sucesso que precisa se tornar um contato com uma oportunidade associada. Como isso deve ser feito a partir da Campanha, mantendo o histórico do Membro da Campanha associado?
 
-B.
+A. Clone the lead and convert the cloned record to a Contact
 
-C.
+B. Add a Contact from the Campaign Member Detail page
 
-D.
+C. Delete the lead and create a new Contact and Opportunity
+
+D. Convert the lead from the Campaign Member Detail page
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D
+
+  > Um membro da campanha descreve o relacionamento entre um lead ou contato individual e uma campanha específica do Salesforce. Ele rastreia a mudança nesse relacionamento ao longo do tempo e é fundamental para criar relatórios e painéis de marketing úteis no Salesforce. Se o membro da campanha foi criado a partir de um lead, você pode clicar em Converter lead na página de detalhes do membro da campanha para converter o lead. Quando você converte um lead, o membro da campanha ainda faz parte da campanha, mas seu tipo muda de lead para contato.
 </details>
 
 ___
 ## Questão 52
+> Ursa Major Solar offers amazing experiences for all of its employees. The employee engagement committee wants to post updates while restricting other employees from posting. What should the administrator create to meet this request?
 
-A.
+> A Ursa Major Solar oferece experiências incríveis para todos os seus colaboradores. O comitê de engajamento de funcionários deseja publicar atualizações enquanto restringe a publicação de outros funcionários. O que o administrador deve criar para atender a essa solicitação?
 
-B.
+A. Chatter Broadcast Group
 
-C.
+B. Chatter Unlisted Group
 
-D.
+C. Chatter Stream
+
+D. Chatter Recommendations
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A
 </details>
 
 ___
 ## Questão 53
+> An administrator is planning to use Data Loader to mass import new records to a custom object from a new API. What will the administrator need to do to use the Data Loader?
 
-A.
+A. Use the Data Import Tool to mass import custom object records
 
-B.
+B. Reset their password and their security token
 
-C.
+C. Append their security token at the end of their password to login
 
-D.
+(*Acrescente o token de segurança no final da senha para fazer login*)
+
+D. Add a permission set that allows them to import data
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B
 </details>
 
 ___
 ## Questão 54
+> Universal Containers has a Contact Lightning record page with a component that shows LinkedIn data. The sales team would like to only show this component to sales users when they are on their mobile phones. Which two solutions should the administrator use to fulfill this requirement? Choose 2 answers
 
-A.
+> A Universal Containers tem uma página de registro Contact Lightning com um componente que mostra dados do LinkedIn. A equipe de vendas gostaria de mostrar esse componente apenas aos usuários de vendas quando estiverem em seus telefones celulares. Quais duas soluções o administrador deve usar para atender a esse requisito? Escolha 2 respostas
 
-B.
+A. Filter the component visibility with View =  Mobile/Tablet
 
-C.
+B. Filter the component visibility with User > Profile > Name = Sales User
 
-D.
+C. Filter the component visibility with Form Factor = Phone
+
+D. Filter the component visibility with User > Role > Name = Sales User
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e C
 </details>
 
 ___
 ## Questão 56
+> An analytics user needs Read, Create and Edit access for objects and should be restricted from deleting any records. What should the administrator do to meet this requirement?
 
-A.
+> Um usuário de análise precisa de acesso de leitura, criação e edição para objetos e deve ser impedido de excluir quaisquer registros. O que o administrador deve fazer para atender a esse requisito?
 
-B.
+A. Assign the standard System Administrator profile to the analytics user
 
-C.
+B. Create and assign a custom profile with Delete access removed for each object
 
-D.
+C. Give the user View All access and assign them to the highest role in the role hierarchy
+
+D. Create and assign a permission set that includes Read, Create and Edit access
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B (checked)
 </details>
 
 ___
 ## Questão 57
+> The administrator has created an approval process for time off requests. Which two automated actions are available to be added as part of the approval process? Choose 2
 
-A.
+> O administrador criou um processo de aprovação para solicitações de folga. Quais duas ações automatizadas estão disponíveis para serem adicionadas como parte do processo de aprovação? Escolha 2
 
-B.
+A. Autolaunched Flow
 
-C.
+B. Chatter Post
 
-D.
+C. Field Update
+
+D. Email Alert
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C e D
 </details>
 
 ___
 ## Questão 58
+ Universal Container's administrator has been asked to create a many-to-many relationship between two existing custom objects. Which two steps should the administrator take when enabling the many-to-many relationship? Choose 2 answers
 
-A.
+> O administrador do Universal Container foi solicitado a criar um relacionamento muitos-para-muitos entre dois objetos personalizados existentes. Quais são as duas etapas que o administrador deve seguir ao habilitar o relacionamento muitos-para-muitos? Escolha 2 respostas
 
-B.
+A. Create a junction with a custom object
 
-C.
+(*Criar uma junção com um objeto personalizado*)
 
-D.
+B. Create two master-detail relationships on the new object
+
+(*Crie dois relacionamentos mestre-detalhe no novo objeto*)
+
+C. Create two lookup relationships on the new object
+
+(*Crie dois relacionamentos de pesquisa no novo objeto*)
+
+D. Create URL fields on a custom object
+
+(*Criar campos de URL em um objeto personalizado*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A e B
 </details>
 
 ___
 ## Questão 60
+> The administrator at Ursa imported records into an object by mistake. Which two tools should be used to undo this import? Choose 2
 
-A.
+A. Weekly Data Export
 
-B.
+B. Data Loader
 
-C.
+C. Mass Delete Records
 
-D.
+D. Data Import Wizard
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e C
 </details>
 
 ___
 ## Questão 62
 
-A.
+> Sales users at Cloud Kicks are requesting that the data in the Industry field on the Account object displays on the Opportunity page layout. Which type of field should an administrator create to accomplish this?
 
-B.
+> Os usuários de vendas do Cloud Kicks estão solicitando que os dados no campo Setor no objeto Conta sejam exibidos no layout da página Oportunidade. Que tipo de campo um administrador deve criar para fazer isso?
 
-C.
+A. Cross-object formula field (*Campo de fórmula de objeto cruzado*)
 
-D.
+B. Master-detail relationship field (*Campo de relacionamento mestre-detalhe*)
+
+C. Custom Account field (*Campo de conta personalizada*)
+
+D. Standard Account field (*Campo de conta padrão*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A
 </details>
 
 ___
 ## Questão 63
 
-A.
+> Cloud Kicks needs to be able to show different picklist values for sales and marketing users. Which two options will meet this requirement? Choose 2 
 
-B.
+> O Cloud Kicks precisa mostrar valores de lista de opções diferentes para usuários de vendas e marketing. Quais duas opções atenderão a esse requisito? Escolha 2
 
-C.
+A. Two page layouts, one record type, two picklists
 
-D.
+(*Dois layouts de página, um tipo de registro, duas listas de opções*)
 
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
+B. One page layout, two record types, one picklist
 
-___
-## Questão 64
+(*Um layout de página, dois tipos de registro, uma lista de opções*)
 
-A.
+C. Two permission sets, one record type, one picklist
 
-B.
+(*Dois conjuntos de permissões, um tipo de registro, uma lista de opções*)
 
-C.
+D. One record type, two profiles, one picklist
 
-D.
+(*Um tipo de registro, dois perfis, uma lista de opções*)
 
 <details>
   <summary>Gabarito:</summary>
@@ -803,49 +851,27 @@ D.
 ___
 ## Questão 65
 
-A.
+> The service manager at Ursa Major Solar wants to let customers know that they have received their cases via email and their website. Medium-priority and high priority cases should receive different email notifications than low-priority cases. The administrator has created three email templates for this purpose. How should an administrator configure this requirement?
 
-B.
+> O gerente de serviço da Ursa Major Solar quer que os clientes saibam que receberam seus casos por e-mail e site. Casos de prioridade média e alta devem receber notificações por e-mail diferentes dos casos de baixa prioridade. O administrador criou três modelos de e-mail para essa finalidade. Como um administrador deve configurar esse requisito?
 
-C.
+A. Configure one workflow rule that fires when cases are created. Add a filter for case priority. Select the appropriate email template for the rule
 
-D.
+(*Configure uma regra de fluxo de trabalho que é acionada quando os casos são criados. Adicione um filtro para prioridade de caso. Selecione o modelo de e-mail apropriado para a regra*)
 
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
+B. Create one auto-response rule. Configure three rule entry criteria and set a filter for case priority. Select the appropriate email template for each rule entry
 
-___
-## Questão 52
+(*Crie uma regra de resposta automática. Configure três critérios de entrada de regra e defina um filtro para prioridade de caso. Selecione o modelo de email apropriado para cada entrada de regra*)
 
-A.
+C. Add three auto-response rules. Configure one rule entry criteria for each rule and set a filter for case priority. Select the appropriate email template for eaach rule entry
 
-B.
+(*Adicione três regras de resposta automática. Configure um critério de entrada de regra para cada regra e defina um filtro para prioridade de caso. Selecione o modelo de e-mail apropriado para cada entrada de regra*)
 
-C.
+D. Include three assignment rules that fire when cases are created. Add a filter for case priority. Select the appropriate email template for each rule
 
-D.
+(*Inclua três regras de atribuição que são acionadas quando os casos são criados. Adicione um filtro para prioridade de caso. Selecione o modelo de e-mail apropriado para cada regra*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B
 </details>
-
-___
-## Questão 52
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
