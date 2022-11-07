@@ -277,6 +277,10 @@ D. Define a record type and assign it to the interns
 <details>
   <summary>Gabarito:</summary>
   D (checked)
+
+  Record Types: Os tipos de registro do Salesforce são formas de agrupar registros em um objeto específico. Nesse exemplo agrupa leads inseridos pelos estagiários dentro do objeto lead.
+
+  Web-to-lead: o processo de usar um formulário de site para capturar informações do visitante e armazenar essas informações como um novo lead no Salesforce. Direcionar os visitantes para um formulário em seu site onde eles inserem informações sobre si mesmos e seu interesse em suas ofertas é uma maneira fácil e poderosa de transformá-los em leads.
 </details>
 
 ___
@@ -845,7 +849,7 @@ D. One record type, two profiles, one picklist
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A e B
 </details>
 
 ___

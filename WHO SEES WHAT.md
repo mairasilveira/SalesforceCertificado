@@ -39,3 +39,6 @@ An owner-based sharing rule opens access to records owned by certain users. For 
 
 - **Criteria-Based Sharing Rules:**
 A criteria-based sharing rule determines with whom to share records **based on field values.** For example, you have a custom object for job applications, with a custom picklist field named “Department.” A criteria-based sharing rule could share all job applications in which the Department field is set to “IT” with all IT managers in your organization.
+
+>  Sharing set X Sharing rules
+>> Os Sharing set usam perfis (ex. usuário padrão, administrador etc) para fornecer acesso de registro a um grupo de usuários, diferentemente das sharing rules, que usam funções (ex. sales users) e grupos públicos
