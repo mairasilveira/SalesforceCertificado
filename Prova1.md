@@ -26,6 +26,8 @@ E. Customize Opportunity Contact Role
 <details>
   <summary>Gabarito:</summary>
   D e E (checked)
+
+  > **Opportunity Contact Role** especificam a parte que cada contato desempenha em um negócio. Quando você usa e personaliza as funções de contato da oportunidade, sua equipe de vendas sabe com quem entrar em contato e quando.
 </details>
 
 ___

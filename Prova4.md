@@ -215,466 +215,355 @@ D. Email Alerts
 
 ___
 ## Questão 11
+> Sales users at Universal Containers are reporting that it is taking a long time to edit opportunity records. Normally, the only field they are editing is the Stage field. Which two options should the administrator recommend to help simplify the process? Choose 2
 
-A.
+> Os usuários de vendas da Universal Containers estão relatando que está demorando muito para editar os registros de oportunidade. Normalmente, o único campo que eles estão editando é o campo Stage. Quais são as duas opções que o administrador deve recomendar para ajudar a simplificar o processo? Escolha 2
 
-B.
+A. Use a Kanban list view for Opportunity
 
-C.
+B. Add a Path for stage to the opportunity record page
 
-D.
+C. Configure an autolaunched flow for Opportunity editing
+
+D. Create a simplified Opportunity page layout
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A, B, C <- 2 dessas
 </details>
 
 ___
 ## Questão 12
+> Which two capabilities are considerations when marking a field as required in Object Manager? Choose 2 answers
 
-A.
+> Quais dois recursos são considerados ao marcar um campo como necessário no Gerenciador de objetos? Escolha 2 respostas
 
-B.
+A. The field is not required to save records via API on that object
 
-C.
+B. The field is added to every page layout on that object
 
-D.
+C. The field is universally required to save a record on that object
+
+D. The field is optional when saving records via web-to-lead and web-to-case 
+
+(*Web-to-lead: The process of using a website form to capture visitor information and store that information as a new lead in Salesforce.*)
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e C (checked)
 </details>
 
 ___
 ## Questão 13
+> Northern Trail Outfitters is using one profile for all of its marketing users, providing read-only access to the Campaign object. A few marketing users now require comprehensive edit access on Campaigns.
+How should an administrator fulfil this request?
 
-A.
+> A Northern Trail Outfitters está usando um perfil para todos os seus usuários de marketing, fornecendo acesso somente leitura ao objeto Campanha. Alguns usuários de marketing agora exigem acesso de edição abrangente em campanhas. Como um administrador deve atender a essa solicitação?
 
-B.
+A. Permission sets
 
-C.
+B. Organization-wide defaults
 
-D.
+C. Marketing user checkbox
+
+D. Field-level security
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C (checked)
+
+  > **Marketing user checkbox:** When enabled, the user can create, edit, and delete campaigns, configure advanced campaign setup, import leads, and update campaign history via the member import wizards.  If this option isn't selected, the user can only view campaigns and advanced campaign setup, edit the Campaign History for a single lead or contact, and run campaign reports
 </details>
 
 ___
 ## Questão 14
+> DreamHouse Realty regularly processes customer requests for warranty work and would like to offer customers a self-serve option to generate cases. Which two solutions should an administrator use to meet this request? Choose 2 answers
 
-A.
+> A DreamHouse Realty processa regularmente as solicitações dos clientes para a garantia de trabalho e gostaria de oferecer aos clientes uma opção de autoatendimento para gerar casos. Quais duas soluções um administrador deve usar para atender a essa  solicitação? Escolha 2 respostas
 
-B.
+A. Web-to-Case
 
-C.
+B. Email-to-Case
 
-D.
+C. Case Escalation
+
+D. Case Queues
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A e B (checked)
 </details>
 
 ___
 ## Questão 15
+> An administrator has been asked to update a flow that was created as part of a recent update. When the administrator opens the flow for editing, the Flow Bunder toolbox offers only four elements: Assignment, Decision, Get Records, and Loop. What would cause this?
 
-A.
+> Um administrador foi solicitado a atualizar um fluxo que foi criado como parte de uma atualização recente. Quando o administrador abre o fluxo para edição, a caixa de ferramentas Flow Bunder oferece apenas quatro elementos: Atribuição, Decisão, Obter Registros e Loop. O que causaria isso?
 
-B.
+A. The version of the flow is inactive
 
-C.
+B. The flow is a screen flow
 
-D.
+C. The flow is a before save flow
+
+D. The version of the flow is activate
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C (checked)
+
+  > **Before Save Flow (Fast Field Updates)** If you just need to update fields on the record that triggers the flow, this is the right option. It can be triggered when the record is created, created or updated, updated, or deleted. Before save flow runs much faster (10 times) than the after save flow. First of all, the only thing that you can perform is to update the record that triggers the flow. As you can see, there are no options to create or delete records, or any interaction elements like calling a subflow, or performing an action (for example, sending an email).
 </details>
 
 ___
 ## Questão 16
+> The marketing team wants a new picklist value added to the Campaign Member Status field for the upsell promotional campaign. Which two solutions should the administrator use to modify the picklist field values? Choose 2 answers
 
-A.
+> A equipe de marketing deseja que um novo valor de lista de opções seja adicionado ao campo Status do membro da campanha para a campanha promocional de upsell. Quais duas soluções o administrador deve usar para modificar os valores do campo da lista de opções? Escolha 2 respostas
 
-B.
+A. Edit the picklist values for the Campaign Status in Object Manager 
 
-C.
+B. Modify the picklist value on the Campaign Member Statuses related list
 
-D.
+C. Mass modify the Campaign Member Statuses related list
+
+D. Add the Campaign Member Statuses related list to the Page Layout
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B e D (checked)
 </details>
 
 ___
 ## Questão 17
+> What are three characteristics of a master-detail relationship? Choose 3 answers
 
-A.
+A. Permissions for the detail record are set independently of the master
 
-B.
+B. The master object can be a standard or custom object
 
-C.
+C. Roll-up summaries are supported in master-detail relationships
 
-D.
+D. Each object can have up to five master-detail relationships
+
+E. The owner field on the detail records is the owner of the master record
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B, C e E (checked)
+
+  > **Roll-up summaries:** Um campo de resumo de totalização calcula valores de registros relacionados, como os de uma lista relacionada. Você pode criar um campo de resumo de totalização para exibir um valor em um registro mestre com base nos valores dos campos em um registro de detalhes. O registro de detalhes deve estar relacionado ao mestre por meio de um relacionamento mestre-detalhe.
 </details>
 
 ___
 ## Questão 18
+> The sales manager at Cloud Kicks wants to set up a business process where opportunity discounts over 30% need to be approved by the VP of sales. Any discounts above 10% need to be approved by the user’s manager. The administrator has been tasked with creating an approval process. Which are two considerations the administrator needs to review before setting up this approval process?
 
-A.
+> O gerente de vendas da Cloud Kicks deseja configurar um processo de negócios em que descontos de oportunidade acima de 30% precisem ser aprovados pelo vice-presidente de vendas. Quaisquer descontos acima de 10% precisam ser aprovados pelo gerente do usuário. O administrador foi encarregado de criar um processo de aprovação. Quais são as duas considerações que o administrador precisa revisar antes de configurar esse processo de aprovação?
 
-B.
+A. Create a custom Discount field on the opportunity to capture the discount amount
 
-C.
+B. Populate the Manager standard field on the sales users' User Detail page
 
-D.
+(*Preencha o campo padrão Gerente na página Detalhes do usuário dos usuários de vendas*)
+
+C. Configure two separate approval processes
+
+D. Allow the submitter choose the approver manually
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A e B (checked)
 </details>
 
 ___
 ## Questão 19
+> AW Computing (AWC) occasionally works with independent contractors, who the company stores as Contacts in Salesforce. Contractors often change agencies, and AWC wants to maintain the historical accuracy of the record. What should AWC use to track Contacts?
 
-A.
+> A AW Computing (AWC) trabalha ocasionalmente com contratados independentes, que a empresa armazena como Contatos no Salesforce. Os contratados geralmente mudam de agência e a AWC deseja manter a precisão histórica do registro. O que o AWC deve usar para rastrear contatos?
 
-B.
+A. Use a partner community to track the Contacts
 
-C.
+B. Create a new Contact record for each agency
 
-D.
+C. Create a Junction object to track many-to-many relationship
+
+D. Enable Contacts to multiple Accounts
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D (checked)
 </details>
 
 ___
 ## Questão 20
+> A sales rep has a list of 300 accounts with contacts that they want to load at one time. Which tool should the administrator utilize to import the records to salesforce?
 
-A.
+> Um representante de vendas tem uma lista de 300 contas com contatos que deseja carregar de uma só vez. Qual ferramenta o administrador deve utilizar para importar os registros para o salesforce?
 
-B.
+A. Data Loader
 
-C.
+B. Manual Import
 
-D.
+C. Dataloader.io
+
+D. Data Import Wizard
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D (checked)
 </details>
 
 ___
 ## Questão 21
+> Ursa Major Solar wants to automatically notify a manager about any cases awaiting a response from an agent for more than 2 hours after case creation. Which feature should an administrator use to fulfill this requirement?
 
-A.
+> A Ursa Major Solar deseja notificar automaticamente um gerente sobre todos os casos que aguardam uma resposta de um agente por mais de 2 horas após a criação do caso. Qual recurso um administrador deve usar para atender a esse requisito?
 
-B.
+A. Formula Field
 
-C.
+B. Case escalation rule
 
-D.
+C. Assignment rule
+
+D. Omni-Channel Supervisor
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B
 </details>
 
 ___
 ## Questão 22
+> The Client services and customer support teams share the same profile but have different permission sets. The Custom Object Retention related list needs to be restricted to the client services team on the Lightning record page layout. What should the administrator use to fulfil this request?
 
-A.
+> As equipes de atendimento ao cliente e suporte ao cliente compartilham o mesmo perfil, mas têm conjuntos de permissões diferentes. A lista relacionada Retenção de objeto personalizado precisa ser restrita à equipe de atendimento ao cliente no layout de página de registro do Lightning. O que o administrador deve usar para atender a essa solicitação?
 
-B.
+A. Sharing settings
 
-C.
+B. Record type assignment
 
-D.
+C. Page layout assignment
+
+D. Component visibility
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D (checked)
 </details>
 
 ___
 ## Questão 23
+> An administrator has reviewed an upcoming critical update.
+How should the administrator proceed with activation of the critical update?
 
-A.
+> Um administrador revisou uma atualização crítica futura.
+Como o administrador deve proceder com a ativação da atualização crítica?
 
-B.
+A. Allow the critical update to auto-activate In a sandbox.
 
-C.
+B. Activate the critical update in production.
 
-D.
+C. Activate the critical update in a sandbox
+
+D. Allow the critical update to auto-activate.
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C (checked)
 </details>
 
 ___
 ## Questão 24
+> The Sales Director at Cloud Kicks wants to be able to predict upcoming revenue in the next several fiscal quarters so they can set goals and benchmark how reps are performing. Which two features should the administrator configure?
 
-A.
+> O Diretor de Vendas da Cloud Kicks quer ser capaz de prever a receita futura nos próximos trimestres fiscais para que possam definir metas e comparar o desempenho dos representantes. Quais dois recursos o administrador deve configurar?
 
-B.
+A. Sales Quotes (*cotação de vendas**)
 
-C.
+B. Opportunity List View
 
-D.
+C. Forecasting (*previsão*)
+
+D. Opportunity Stages
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A e C (checked)
 </details>
 
 ___
 ## Questão 25
+> The administrator for Cloud Kicks has created a screen flow to help service reps ask the same set of questions when customers call in with issues. This screen should be visible from cases. How should the screen flow be distributed?
 
-A.
+> O administrador do Cloud Kicks criou um fluxo de tela para ajudar os representantes de serviço a fazer o mesmo conjunto de perguntas quando os clientes ligam com problemas. Esta tela deve ser visível nos casos. Como o fluxo de tela deve ser distribuído?
 
-B.
+A. Page Layout
 
-C.
+B. Component Filter
 
-D.
+C. Lightning Page
+
+D. Home page
 
 <details>
   <summary>Gabarito:</summary>
-  
+  C (checked)
 </details>
 
 ___
 ## Questão 26
+> Cloud Kicks has decided to delete a custom field. What will happen to the data in the field when it is deleted?
 
-A.
+A. The data in the field is stored for 20 days
 
-B.
+B. The data is permanently deleted
 
-C.
+C. The data associated with the field is removed
 
-D.
+D. The data is restorable from the recycle bin
 
 <details>
   <summary>Gabarito:</summary>
-  
+  B (checked)
 </details>
 
 ___
 ## Questão 27
+> Universal Containers requires a different Lightning page to be displayed when Accounts are viewed In the Sales Console and In the Service Console. How should meet this requirement?
 
-A.
+> O Universal Containers exige que uma página diferente do Lightning seja exibida quando as contas são exibidas no Sales Console e no Service Console.
 
-B.
+A. Update page layout assignments
 
-C.
+(*Atualizar atribuições de layout de página*)
 
-D.
+B. Define multiple record types
+
+C. Assign Lightning pages as app default
+
+D. Create different user profiles
 
 <details>
   <summary>Gabarito:</summary>
-  
+  A (checked)
 </details>
 
 ___
 ## Questão 28
+> The VP of safes at Universal Containers wants to prevent members of the sales team from changing an opportunity to a date in the past. What should an administrator configure to meet this requirement?
 
-A.
+> O vice-presidente de cofres da Universal Containers quer impedir que os membros da equipe de vendas alterem uma oportunidade para uma data no passado. O que um administrador deve configurar para atender a esse requisito?
 
-B.
+A. Assignment Rule
 
-C.
+B. Approval Process
 
-D.
+C. Field-Level Security
 
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 29
-
-A.
-
-B.
-
-C.
-
-D.
+D. Validation Rule
 
 <details>
   <summary>Gabarito:</summary>
-  
+  D (checked)
 </details>
-
-___
-## Questão 30
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 31
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 32
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 33
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 34
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 35
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 36
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 37
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 38
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___
-## Questão 39
-
-A.
-
-B.
-
-C.
-
-D.
-
-<details>
-  <summary>Gabarito:</summary>
-  
-</details>
-
-___

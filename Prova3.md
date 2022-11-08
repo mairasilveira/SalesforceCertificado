@@ -560,6 +560,8 @@ E. Add the Campaign Member related list to the Opportunity page layout
 <details>
   <summary>Gabarito:</summary>
   A e D 
+
+  > **Opportunity Contact Role** especificam a parte que cada contato desempenha em um negócio. Quando você usa e personaliza as funções de contato da oportunidade, sua equipe de vendas sabe com quem entrar em contato e quando.
 </details>
 
 ___

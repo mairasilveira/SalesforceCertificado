@@ -392,6 +392,8 @@ D. Create a new role that prevents Delete permissions from rolling up to the use
 <details>
   <summary>Gabarito:</summary>
   C (checked)
+
+  > **Muting permission set**: Use um conjunto de permissões de silenciamento com um grupo de conjuntos de permissões para silenciar as permissões selecionadas. 
 </details>
 
 ___
@@ -551,7 +553,7 @@ D. Configure an autolaunched flow for Opportunity editing
 
 <details>
   <summary>Gabarito:</summary>
-  B e D (checked)
+  A, B, D <- duas dessas
 </details>
 
 ___
@@ -807,6 +809,10 @@ D. Data Import Wizard
 <details>
   <summary>Gabarito:</summary>
   C (checked)
+
+  > Use the Mass Transfer tool to transfer multiple accounts, leads, service contracts, and custom objects from one user to another.
+
+  > O Data Loader é um aplicativo cliente para importação ou exportação de dados em massa. Use-o para inserir, atualizar, excluir ou exportar registros do Salesforce. Ao importar dados, o Data Loader lê, extrai e carrega dados de arquivos com valores separados por vírgulas (CSV) ou de uma conexão de banco de dados. Ao exportar dados, ele os coloca em arquivos CSV.
 </details>
 
 ___
