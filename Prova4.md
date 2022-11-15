@@ -136,6 +136,25 @@ D. Enable and configure standard opportunity teams with splits
 </details>
 
 ___
+## Questão 6.2
+
+> Sales representatives at Universal Containers need assistance from product managers when selling certain products. Product managers do not have access to opportunities, but need to gain access when they are assisting with a specific deal. How can a system administrator accomplish this?
+
+> Os representantes de vendas da Universal Containers precisam de assistência dos gerentes de produto ao vender determinados produtos. Os gerentes de produto não têm acesso a oportunidades, mas precisam ter acesso quando estão auxiliando em um negócio específico. Como um administrador de sistema pode fazer isso?
+
+A. Notify the product manager using opportunity update reminders.
+ 
+B. Enable opportunity teams and allow users to add the product manager.
+ 
+C. Use similar opportunities to show opportunities related to the product manager. 
+
+D. Enable account teams and allow users to add the product manager.
+
+<details>
+  <summary>Gabarito:</summary>
+  B (checked)
+  </details>
+
 ## Questão 7
 > Users at Cloud Kicks are reporting different options when updating a custom picklist on the Opportunity object based on the kind of opportunity. Where should an administrator update the option in the picklist?
 
@@ -566,4 +585,124 @@ D. Validation Rule
 <details>
   <summary>Gabarito:</summary>
   D (checked)
+</details>
+
+___
+## Questão 29
+> What should a system administrator use to disable an application for a group of users in Salesforce?
+
+A. Profile
+
+B. Sharing rules
+
+C. Web tabs
+
+D. Page layouts
+
+<details>
+  <summary>Gabarito:</summary>
+  A (checked)
+
+  > Sharing rules: acess ADICIONAL
+
+  > Web tabs: guias que dão acesso a certas funcionalidades da web 
+
+  > Page layout: Controla o layout da página ou como a página aparece, mas isso não é usado para desabilitar acesso ao app personalizado
+</details>
+
+___
+## Questão 30
+
+> Universal Containers needs to track the Manufacturer and Model for specific car companies. How can the system administrator ensure that the selected Manufacturer provides the values available for the Model? 
+
+> A Universal Containers precisa rastrear o fabricante e o modelo para empresas de automóveis específicas. Como o administrador do sistema pode garantir que o Fabricante selecionado forneça os valores disponíveis para o Modelo?
+
+A. Create the Manufacturer field as a dependent picklist and the Model as a controlling picklist.
+
+B. Create a lookup field from the Manufacturer object to the Model object. 
+
+C. Create the Manufacturer field as a controlling picklist and the Model as a dependent picklist. 
+
+D. Create a multi-select picklist field that includes both Manufacturers and Models.
+
+<details>
+  <summary>Gabarito:</summary>
+  C (checked)
+</details>
+
+___
+## Questão 31
+> In order to gather better data, Universal Containers would like to gather data around their Closed Lost opportunities. They want to ensure that when an opportunity stage is Closed Lost the reason is captured in a custom ‘Reason Lost’ field before the record can be saved. What is the best approach to meet this requirement?
+
+A. Create a workflow rule that fires on the Closed Lost state and populates the Reason Lost field with a predefined value.
+
+B. Create a trigger that requires Reason Lost to the populated once the opportunity stage is changed to Closed Lost.
+
+C. Create a new page layout for Closed Lost opportunities and make Reason Lost a required field.
+
+D. Create a validation rule that requires Reason Lost to be populated once the opportunity stage is Closed Lost.
+
+<details>
+  <summary>Gabarito:</summary>
+  D (checked)
+
+Observando as 4 respostas fornecidas, você pode resolver o problema com várias delas. Mas das 4, há claramente uma única melhor resposta. Você pode escrever uma trigger para manipular coisas ou criar um layout de página separado com esse campo obrigatório e, em seguida, usar alguma automação para alterar o tipo de registro.
+
+Mas o que a pergunta quer é realmente uma prática recomendada. Por que você usaria qualquer uma das outras, quando uma regra de validação (D) é uma funcionalidade padrão que pode atender aos requisitos facilmente?
+</details>
+
+___
+## Questão 32
+
+> Universal Containers was bought by a larger company and needs to provide information on a monthly basis to the new parent company to help predict sales. Which data should the new parent company review? Choose one answer
+
+> A Universal Containers foi comprada por uma empresa maior e precisa fornecer informações mensalmente à nova controladora para ajudar a prever as vendas. Quais dados a nova empresa-mãe deve revisar? Escolha uma resposta
+
+A. Dashboard of user login history 
+
+B. Count of new lead records created 
+
+C. Number of activities tied to opportunities 
+
+D. Opportunity pipeline report grouped by month
+
+<details>
+  <summary>Gabarito:</summary>
+  D (checked)
+
+  Esta pergunta não pergunta sobre recursos da plataforma ou práticas recomendadas. Ele quer que você entenda o que seria benéfico para a empresa. Você pode criar relatórios ou painéis para qualquer um deles, mas do que uma empresa se beneficiaria mais? A questão é sobre 'prever vendas', então sabemos que é em torno de dados de leads ou oportunidades (o que elimina A). Embora a contagem de leads possa prever as vendas, seria menos benéfica do que os dados de oportunidade (eliminando B). C são atividades sobre oportunidades que mostram um nível de engajamento, mas não prevêem vendas. D é o pipeline de oportunidades, que daria às partes interessadas a melhor visão.
+  </details>
+
+  ___
+  # Questão 33
+
+  > What should a system administrator consider before importing a set of records into Salesforce? (There are two correct answers.) 
+
+A. The import file should include a record owner for each record.
+ 
+B. Currency field values will default to the personal currency of the record owner.
+
+(*Os valores do campo de moeda serão padronizados para a moeda pessoal do proprietário do registro.*)
+ 
+C. Data should be de-duplicated in the import file prior to import.
+
+(*Os dados devem ser desduplicados no arquivo de importação antes da importação.*)
+ 
+D. Validation rules are not triggered when importing data using the import wizard.
+
+(*As regras de validação não são acionadas ao importar dados usando o assistente de importação.*)
+
+<details>
+  <summary>Gabarito:</summary>
+  A e C (checked)
+
+  A razão pela qual A é importante é que, a menos que um Proprietário seja especificado, o Usuário do Salesforce que fizer a importação se tornará o Proprietário de todos os registros importados. Isso significaria que o administrador teria que fazer outro trabalho de dados ou usar a ferramenta de transferência em massa para alterar os proprietários após a criação dos registros. Isso será muito mais difícil do que definir o Proprietário antes da importação.
+ 
+A : If record owner is not specified, then uploader becomes the owner of the record itself.
+ 
+B: The uploading user's currency will be taken instead of org's currency.
+ 
+C: Duplicate records are allowed and no errors are reported. Hence this should be considered.
+ 
+D: Validations, Workflow & triggers will be fired unless manually disabled.
 </details>

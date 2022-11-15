@@ -10,7 +10,7 @@ User permissions, Object permissions, Field permissions
 
 ## Profile
 Profiles define how users access objects and data, and what they can do within the application. When you create users, you assign a profile to each one.
-Exemplos de standard profiles: System Administrator, Read Only, etc.
+Exemplos de standard profiles: **SALES USER**, System Administrator, Read Only, etc.
 
 ## Permission sets (Conjunto de permissão)
 A permission set is a collection of settings and permissions that give users access to various tools and functions. Permission sets extend users’ functional access without changing their profiles.
@@ -32,6 +32,7 @@ Manual sharing gives other users access to certain types of records, including a
 Sometimes, granting access to one record includes access to all its associated records. For example, if you grant another user access to an account, the user automatically has access to all the opportunities and cases associated with that account.
 
 ## Sharing rules
+Da acesso ADICIONAL
 Use sharing rules to extend sharing access to users in public groups, roles, or territories. Sharing rules give particular users greater access by making automatic exceptions to your org-wide sharing settings.
 
 - **Owner-Based Sharing Rules:**
@@ -42,3 +43,11 @@ A criteria-based sharing rule determines with whom to share records **based on f
 
 >  Sharing set X Sharing rules
 >> Os Sharing set usam perfis (ex. usuário padrão, administrador etc) para fornecer acesso de registro a um grupo de usuários, diferentemente das sharing rules, que usam funções (ex. sales users) e grupos públicos
+
+## Page layout
+
+Controla o layout da página ou como a página aparece
+
+## DESABILITAR ACESSO EM UM APPLICATION FOR A GROUP OF USERS
+
+Utiliza profile
